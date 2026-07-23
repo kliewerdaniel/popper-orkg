@@ -1,0 +1,158 @@
+{
+  "domain": "orkg_materials_science_mapping_precursor_chemistries_us",
+  "title": "Mapping precursor chemistries used in rare-earth ALD processes (materials_science)",
+  "discipline": "materials_science",
+  "orkg_problem_id": "resource/R1470113",
+  "discovery_year": 2014,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1470140",
+    "citation": "Reaction Chemistry during the Atomic Layer Deposition of Sc<sub>2</sub>O<sub>3</sub> and Gd<sub>2</sub>O<sub>3</sub> from Sc(MeCp)<sub>3</sub>, Gd(<sup>i</sup>PrCp)<sub>3</sub>, and H<sub>2</sub>O",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Mapping precursor chemistries used in rare-earth ALD processes', the held-out later work (Reaction Chemistry during the Atomic Layer Deposition of Sc<sub>2</sub>O<sub>3</sub> and Gd<sub>2</sub>O<sub>3</sub> fro) established: Material: Sc2O3; Precursor 1: Sc(MeCp)3; Precursor 2: H2O",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1470236",
+      "title": "Atomic Layer Deposition of Hexagonal and Orthorhombic YMnO<sub>3</sub> Thin Films",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: YMnO3",
+        "Precursor 1: Y(thd)3",
+        "Precursor 2: Mn(thd)3",
+        "Precursor 3: O3",
+        "Growth per cycle (GPC) [Å]: 0.18-0.60",
+        "Deposition temperature [°C]: 250-300"
+      ]
+    },
+    {
+      "id": "R1470254",
+      "title": "ALD of YF<sub>3</sub> Thin Films from TiF<sub>4</sub> and Y(thd)<sub>3</sub> Precursors",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: YF3",
+        "Precursor 1: Y(thd)3",
+        "Precursor 2: TiF4",
+        "Growth per cycle (GPC) [Å]: 1.10-1.70",
+        "Deposition temperature [°C]: 225-325"
+      ]
+    },
+    {
+      "id": "R1470264",
+      "title": "Chemical and structural properties of atomic layer deposited La2O3 films capped with a thin Al2O3 layer",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(thd)3",
+        "Precursor 2: O3",
+        "Growth per cycle (GPC) [Å]: 0.36",
+        "Deposition temperature [°C]: 180-425",
+        "Precursor 1: La(Cp)3"
+      ]
+    },
+    {
+      "id": "R1470296",
+      "title": "Characteristics of La$_2$O$_3$ Thin Films Deposited Using the ECR Atomic Layer Deposition Method",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(iPrCp)3",
+        "Precursor 2: O2 plasma",
+        "Growth per cycle (GPC) [Å]: 0.6",
+        "Deposition temperature [°C]: 300-350"
+      ]
+    },
+    {
+      "id": "R1470333",
+      "title": "Electrical properties of atomic-layer-deposited La2O3 films using a novel La formamidinate precursor and ozone",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(iPr2famd)3",
+        "Precursor 2: H2O",
+        "Growth per cycle (GPC) [Å]: 1.7",
+        "Deposition temperature [°C]: 200-250",
+        "Precursor 2: O3"
+      ]
+    },
+    {
+      "id": "R1470279",
+      "title": "Growth characteristics and electrical properties of La2O3 gate oxides grown by thermal and plasma-enhanced atomic layer deposition",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(iPrCp)3",
+        "Precursor 2: H2O",
+        "Growth per cycle (GPC) [Å]: 0.1",
+        "Deposition temperature [°C]: 280-480",
+        "Precursor 2: O2 plasma"
+      ]
+    },
+    {
+      "id": "R1470299",
+      "title": "The Effects of Annealing Ambient on the Characteristics of La[sub 2]O[sub 3] Films Deposited by RPALD",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(iPrCp)3",
+        "Precursor 2: O2 plasma",
+        "Growth per cycle (GPC) [Å]: 0.6",
+        "Deposition temperature [°C]: 300-350"
+      ]
+    },
+    {
+      "id": "R1470302",
+      "title": "Effects of an Al<sub>2</sub>O<sub>3</sub> capping layer on La<sub>2</sub>O<sub>3</sub> deposited by remote plasma atomic layer deposition",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Material: La2O3",
+        "Precursor 1: La(iPrCp)3",
+        "Precursor 2: O2 plasma",
+        "Growth per cycle (GPC) [Å]: 0.6",
+        "Deposition temperature [°C]: 300-350"
+      ]
+    },
+    {
+      "id": "R1470239",
+      "title": "Extensive Series of Hexagonal and Orthorhombic RMnO<sub>3</sub> (R = Y, La, Sm, Tb, Yb, Lu) Thin Films by Atomic Layer Deposition",
+      "doi": "",
+      "year": 2011,
+      "claims": [
+        "Material: YMnO3",
+        "Precursor 1: Y(thd)3",
+        "Precursor 2: Mn(thd)3",
+        "Precursor 3: O3",
+        "Growth per cycle (GPC) [Å]: 0.18-0.60",
+        "Deposition temperature [°C]: 250-300"
+      ]
+    },
+    {
+      "id": "R1470149",
+      "title": "Atomic layer deposition of scandium‐based oxides",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Material: ScAlO3",
+        "Precursor 1: Sc(MeCp)3",
+        "Precursor 2: TMA",
+        "Precursor 3: H2O",
+        "Growth per cycle (GPC) [Å]: 0.65",
+        "Deposition temperature [°C]: 300"
+      ]
+    }
+  ]
+}

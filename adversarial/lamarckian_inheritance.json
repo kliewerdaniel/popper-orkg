@@ -1,0 +1,48 @@
+{
+  "domain": "lamarckian_inheritance",
+  "title": "Inheritance of acquired characteristics (Lamarckism) as the mechanism of evolution (a known dead end)",
+  "discovery_year": 1809,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "lamarck1809",
+    "citation": "Lamarck, J.-B. (1809). Philosophie zoologique (inheritance of acquired characteristics).",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Characteristics an organism acquires through use or disuse during its lifetime are transmitted to its offspring; repeated use strengthens and enlarges an organ, disuse weakens it, and these somatic modifications are inherited, driving the progressive transformation of species.",
+  "note": "FALSE as a general mechanism of heredity: the Weismann barrier and Mendelian/DNA-based genetics show somatic modifications are not directly inherited (narrow epigenetic exceptions aside). Lamarckism fits the observation that offspring resemble parents and that organisms adapt, so a system rewarding narrative fit ranks it high. A trustworthy one should expose the absence of a grounded transmission mechanism.",
+  "prior_literature": [
+    {
+      "id": "buffon1749",
+      "title": "Histoire Naturelle (variation and change of species over time)",
+      "doi": "",
+      "year": 1749,
+      "claims": [
+        "Species can vary in form over successive generations.",
+        "Environmental conditions influence the characteristics of organisms.",
+        "Offspring tend to resemble their parents in most respects."
+      ]
+    },
+    {
+      "id": "linnaeus1735",
+      "title": "Systema Naturae (classification of living organisms)",
+      "doi": "",
+      "year": 1735,
+      "claims": [
+        "Organisms can be grouped into a nested hierarchy by shared traits.",
+        "Related organisms share many heritable morphological features.",
+        "Traits are passed from one generation to the next."
+      ]
+    },
+    {
+      "id": "haller1757",
+      "title": "Elementa Physiologiae (use and development of organs)",
+      "doi": "",
+      "year": 1757,
+      "claims": [
+        "Repeated exercise of a muscle increases its size and strength.",
+        "Organs that are not used tend to atrophy.",
+        "The body changes measurably in response to activity during life."
+      ]
+    }
+  ]
+}

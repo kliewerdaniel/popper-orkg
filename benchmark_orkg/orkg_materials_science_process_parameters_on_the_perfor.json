@@ -1,0 +1,134 @@
+{
+  "domain": "orkg_materials_science_process_parameters_on_the_perfor",
+  "title": "process parameters on the performance characteristics of ALD-deposited films (materials_science)",
+  "discipline": "materials_science",
+  "orkg_problem_id": "resource/R676133",
+  "discovery_year": 2013,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R676165",
+    "citation": "Tin oxide atomic layer deposition from tetrakis(dimethylamino)tin and water",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'process parameters on the performance characteristics of ALD-deposited films', the held-out later work (Tin oxide atomic layer deposition from tetrakis(dimethylamino)tin and water) established: Material: Tin Oxide (SnOx); Precursors or molecules used: Tetrakis(dimethylamino)tin; Precursors or molecules used: water",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R676169",
+      "title": "Atomic layer deposition of titanium dioxide from TiCl4 and H2O: investigation of growth mechanism",
+      "doi": "",
+      "year": 2001,
+      "claims": [
+        "Material: Titanium dioxide (TiO2)",
+        "Precursors or molecules used: TiCl4",
+        "Precursors or molecules used: H2O",
+        "Range of substrate/deposition temperatures: 100°C to 400°C",
+        "Growth Rate: 0.048 nm per cycle at 150°C to 0.078 nm per cycle at 100°C",
+        "film thickness: Thickness increases with ALD cycles, approximately 20 nm for the studies in QCM"
+      ]
+    },
+    {
+      "id": "R676142",
+      "title": "Atomic Layer Deposition of Hafnium and Zirconium Oxides Using Metal Amide Precursors",
+      "doi": "",
+      "year": 2002,
+      "claims": [
+        "Material: Hafnium Oxides (HfO2)",
+        "Material: Zirconium Oxides (ZrO2)",
+        "Precursors or molecules used: Tetrakis(dimethylamido)zirconium Zr(NMe2)4",
+        "Precursors or molecules used: Tetrakis(ethylmethylamido)zirconium Zr(NMeEt)4",
+        "Precursors or molecules used: Tetrakis(diethylamido)zirconium Zr(NEt2)4",
+        "Precursors or molecules used: Tetrakis(dimethylamido)hafnium Hf(NMe2)4"
+      ]
+    },
+    {
+      "id": "R676153",
+      "title": "Atomic Layer Deposition of Hafnium Dioxide Films from Hafnium Tetrakis(ethylmethylamide) and Water",
+      "doi": "",
+      "year": 2002,
+      "claims": [
+        "Material: Hafnium Dioxide (HfO2) films",
+        "Precursors or molecules used: Hf[N(CH3)(C2H5)]4",
+        "Range of substrate/deposition temperatures: 150 - 325 ºC",
+        "Growth Rate: 0.09 nm per cycle",
+        "film thickness: Increases with temperature and number of cycles, e.g., thicker at 300°C for 1500 cycles compared to 150°C for 1000 cycles",
+        "refractive index: Varies with temperature, e.g., at 250°C"
+      ]
+    },
+    {
+      "id": "R676137",
+      "title": "Atomic Layer Deposition of Platinum Thin Films",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "Material: Platinum",
+        "Precursors or molecules used: (methylcyclopentadienyl)trimethylplatinum (MeCpPtMe3)",
+        "Precursors or molecules used: oxygen",
+        "Range of substrate/deposition temperatures: 300 °C",
+        "Growth Rate: 0.45 Å cycle-1",
+        "film thickness: Linearly dependent on the number of reaction cycles; specific thickness values not provided"
+      ]
+    },
+    {
+      "id": "R676159",
+      "title": "Surface chemistry and film growth during TiN atomic layer deposition using TDMAT and NH3",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "Material: Titanium Nitride (TiN)",
+        "Precursors or molecules used: tetrakis-dimethylamino titanium (TDMAT)",
+        "Precursors or molecules used: NH3",
+        "Range of substrate/deposition temperatures: 60°C to 240°C",
+        "Growth Rate: Increases with temperature. Exact values not specified, but mentioned as nearly exponential with temperature increase.",
+        "film thickness: Up to 800 Å at 180°C using short reactant pulse sequence. Other specific values not mentioned."
+      ]
+    },
+    {
+      "id": "R676130",
+      "title": "Low-Temperature Al<sub>2</sub>O<sub>3</sub> Atomic Layer Deposition",
+      "doi": "",
+      "year": 2004,
+      "claims": [
+        "Material: Al2O3",
+        "Growth Rate: 1.11 Å/cycle at 33 °C to 1.34 Å/cycle at 125 °C, then slightly decreases to 1.25 Å/cycle at 177 °C",
+        "Precursors or molecules used: Al(CH3)3 (trimethylaluminum, TMA)",
+        "Range of substrate/deposition temperatures: 33°C to 177°C",
+        "film thickness: 332 Å at 33 °C to 401 Å at 125 °C, then decreases slightly to 375 Å at 177 °C for 300 reaction cycles",
+        "film density: 2.5 g/cm3 at 33 °C to 3.0 g/cm3 at 177 °C"
+      ]
+    },
+    {
+      "id": "R732770",
+      "title": "Effects of Low Temperature O2 Treatment on the Electrical Characteristics of Amorphous LaAlO3 Films by Atomic Layer Deposition",
+      "doi": "",
+      "year": 2008,
+      "claims": [
+        "Material: LaAlO3",
+        "Precursor 1: La(iPr2famd)3",
+        "Precursor 2: TMA",
+        "Precursor 3: H2O",
+        "Growth per cycle (GPC) [Å]: 2.8",
+        "Deposition temperature [°C]: 300-330"
+      ]
+    },
+    {
+      "id": "R732773",
+      "title": "Atomic Layer Deposition of Lanthanum-Based Ternary Oxides",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Material: LaLuO3",
+        "Precursor 1: La(thd)3",
+        "Precursor 2: Lu(thd)3",
+        "Precursor 3: O3",
+        "Deposition temperature [°C]: 300",
+        "Precursor 1: La(iPr2amd)3"
+      ]
+    }
+  ]
+}

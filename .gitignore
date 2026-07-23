@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ORKG dump + parsed index (large, regenerable from orkg.org/data)
+build_orkg/index.json
+*.nt
+
+# build artifacts (regenerable)
+build/*/hypotheses.json
+build/*/ablations.json
+build/run.log
+build/adversarial/**/hypotheses.json
+
+# explorer
+explorer/node_modules/
+explorer/.next/
+explorer/.vercel/
+explorer/out/

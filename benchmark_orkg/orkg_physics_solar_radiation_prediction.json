@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_physics_solar_radiation_prediction",
+  "title": "Solar radiation prediction (physics)",
+  "discipline": "physics",
+  "orkg_problem_id": "resource/R1563259",
+  "discovery_year": 2020,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1563914",
+    "citation": "3D-VAR Data Assimilation of SEVIRI Radiances for the Prediction of Solar Irradiance in Italy Using WRF Solar Mesoscale Model—Preliminary Results",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Solar radiation prediction', the held-out later work (3D-VAR Data Assimilation of SEVIRI Radiances for the Prediction of Solar Irradiance in Italy Using WRF Solar Mesoscale M) established: model type: Numerical Weather Prediction (NWP); Assimilated model: Weather Research and Forecasting Model, Solar version 3.8.1; Number of Models: 3",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1560231",
+      "title": "Development of empirical models for estimation of global solar radiation exergy in India",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model input: Monthly mean diffuse solar radiation on a horizontal plane",
+        "model input: Monthly mean global solar radiation on a horizontal plane",
+        "model input: Ambient temperature",
+        "model input: Sunshine hours",
+        "model input: Clearness index",
+        "model input: Relative sunshine period"
+      ]
+    },
+    {
+      "id": "R1563694",
+      "title": "Forecasting global solar irradiance for various resolutions using time series models - case study: Algeria",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: autoregressive model",
+        "model: Nonlinear autoregressive",
+        "model input: Historical solar radiation",
+        "Key findings: NAR has a better performance compared to the AR model",
+        "model type: Time series",
+        "Country: Algeria"
+      ]
+    },
+    {
+      "id": "R1563732",
+      "title": "Estimation of solar radiation using support vector regression",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: Support Vector Regression",
+        "model type: Artificial intelligent",
+        "model input: pressure",
+        "model input: Relative humidity",
+        "model input: wind speed",
+        "model input: Temperature"
+      ]
+    },
+    {
+      "id": "R1563736",
+      "title": "Solar Irradiance Forecast Using Naïve Bayes Classifier Based on Publicly Available Weather Forecasting Variables",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: Naive Bayes",
+        "model input: Dew point",
+        "model input: Temperature",
+        "model input: Sky coverage",
+        "model input: Relative humidity",
+        "Key findings: The proposed NB is a\\nsignificantly easy and\\nrapid algorithm. This\\nmodel requires small\\ntraining data (less than\\ntwo months) and utilizes\\npublicly available input\\ndata. The results were very\\nsatisfying in terms of the\\nsix statistical metric"
+      ]
+    },
+    {
+      "id": "R1563739",
+      "title": "Solar radiation forecasting using artificial neural network and random forest methods: Application to normal beam, horizontal diffuse and global components",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: artificial neural network",
+        "model: Random forest",
+        "model: Smart persistence (SP)",
+        "model input: Historical dataset",
+        "Key findings: RF had better forecasting results of solar irradiation as compared to SP, and ANN. Additionally, all models presented worse results in spring and autumn owing to the less reliable of data and high meteorological variability in these seasons",
+        "Country: France"
+      ]
+    },
+    {
+      "id": "R1563742",
+      "title": "Solar radiation forecasting using MARS, CART, M5, and random forest model: A case study for India",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: Random forest",
+        "model: Multivariate adaptive regression splines",
+        "model: Model five",
+        "model: classification and regression tree",
+        "model input: Solar azimuth angle",
+        "model input: Dew point"
+      ]
+    },
+    {
+      "id": "R1563745",
+      "title": "A New Approach for Prediction of Solar Radiation with Using Ensemble Learning Algorithm",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: Support Vector Regression",
+        "model: artificial neural network",
+        "model: Decision Tree",
+        "model input: Hourly solar radiation",
+        "model type: Artificial intelligent",
+        "Key findings: It is observed that boosting the ensemble improves the prediction performance of the algorithms."
+      ]
+    },
+    {
+      "id": "R1563748",
+      "title": "Machine learning regressors for solar radiation estimation from satellite data",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: Support Vector Regression",
+        "model: Multilayer perceptron",
+        "model: Extreme Learning Machine",
+        "model: Gaussian process Regression",
+        "model input: Cloudiness Index",
+        "model input: A clear-sky solar radiation\\nmodel"
+      ]
+    },
+    {
+      "id": "R1563917",
+      "title": "A Novel Hybrid Model of WRF and Clearness Index-Based Kalman Filter for Day-Ahead Solar Radiation Forecasting",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "Assimilated model: WRF (Weather Research and Forecasting) ARW model version 3.9.1",
+        "Assimilated model: Clearness Index-Based Kalman Filter",
+        "model type: Hybrid",
+        "model input: GFS real-time forecasts (for WRF initialization)",
+        "model input: Historical WRF solar radiation forecasts (input to KF)",
+        "model input: Observed ground data of solar radiation (used to calculate error for KF)"
+      ]
+    },
+    {
+      "id": "R1566035",
+      "title": "Analysis of the diurnal to seasonal variability of solar radiation in Douala, Cameroon",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "model: hierarchical clustering analysis",
+        "model input: Temperature",
+        "model input: Sunshine duration",
+        "model input: precipitation",
+        "model input: solar radiation (SR)",
+        "model input: Cloudiness Index"
+      ]
+    }
+  ]
+}

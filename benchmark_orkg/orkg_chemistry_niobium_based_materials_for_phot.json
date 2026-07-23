@@ -1,0 +1,153 @@
+{
+  "domain": "orkg_chemistry_niobium_based_materials_for_phot",
+  "title": "Niobium-Based Materials for Photocatalytic Solar Fuel Production (chemistry)",
+  "discipline": "chemistry",
+  "orkg_problem_id": "resource/R46145",
+  "discovery_year": 2018,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R46213",
+    "citation": "Novel carbon modiﬁed KTa0.75Nb0.25O3 nanocubes with excellent eﬃciency in photocatalytic H2 eVolution",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Niobium-Based Materials for Photocatalytic Solar Fuel Production', the held-out later work (Novel carbon modiﬁed KTa0.75Nb0.25O3 nanocubes with excellent eﬃciency in photocatalytic H2 eVolution) established: Light Source: 300 W Xe; Co-Catalyst: pt; Sacrificial Reagent: methanol",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R46231",
+      "title": "Polymeric g-C3N4 coupled with NaNbO3 nanowires toward enhanced photocatalytic reduction of CO2 into renewable fuel",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Nb-Based Material: C3N4/NaNbO3",
+        "Light Source: 300 W Xe λ > 420 nm",
+        "Co-Catalyst: None",
+        "Observed Rate: ~6 μmol h-1 g-1",
+        "Main Products: CH4"
+      ]
+    },
+    {
+      "id": "R46233",
+      "title": "ConversionofCO2 intorenewablefueloverPt-g-C3N4/KNbO3 composite photocatalyst",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "Nb-Based Material: C3N4/KNbO3",
+        "Light Source: 300 W Xe λ > 420 nm",
+        "Co-Catalyst: pt",
+        "Observed Rate: 0.25 μmol h-1",
+        "Main Products: CH4"
+      ]
+    },
+    {
+      "id": "R46150",
+      "title": "Insights into the role of Cu in promoting photocatalytichydrogenproductionoverultrathinHNb3O8 nanosheets",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "Light Source: 300 W Xe",
+        "Co-Catalyst: Cu 2+",
+        "H2 Formation Rate: 98.2 μmol h-1",
+        "Sacrificial Reagent: methanol",
+        "Niobate: HNb3O8"
+      ]
+    },
+    {
+      "id": "R46146",
+      "title": "A hybrid of CdS/HCa2Nb3O10 ultrathin nanosheets for promoting photocatalytic hydrogen eVolution",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 300 W Xe, >400 nm",
+        "Co-Catalyst: CdS, Pt",
+        "H2 Formation Rate: 52.6 μmol h-1",
+        "Sacrificial Reagent: Lactic acid",
+        "Niobate: HCa2Nb3O10"
+      ]
+    },
+    {
+      "id": "R46156",
+      "title": "Synthesis and photocatalytic hydrogen production activity of the Ni-CH3CH2NH2/H1.78Sr0.78Bi0.22Nb2O7 hybrid layered perovskite",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 300 W Xe",
+        "Co-Catalyst: Ni-CH3CH2NH2",
+        "H2 Formation Rate: 372.67 μmol h-1",
+        "Sacrificial Reagent: methanol",
+        "Niobate: H1.78Sr0.78Bi0.22Nb2O7"
+      ]
+    },
+    {
+      "id": "R46158",
+      "title": "Photocatalytic activity of nanostructured composites based on layered niobates and C3N4 in the hydrogen eVolution reaction from electron donor solutions under visible light",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 1000 W Hg λ> 400 nm",
+        "Co-Catalyst: g-C3N4",
+        "H2 Formation Rate: 25.0 μmol h-1 g-1",
+        "Sacrificial Reagent: dimethylhydrazine",
+        "Niobate: KNb3O8",
+        "Niobate: K3H3Nb10.8O30"
+      ]
+    },
+    {
+      "id": "R46162",
+      "title": "Two-dimensional g-C3N4/Ca2Nb2TaO10 nanosheet composites for eﬃcient visible light photocatalytic hydrogen eVolution",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 300 W Xe, >400 nm",
+        "Co-Catalyst: g-C3N4, Pt",
+        "H2 Formation Rate: 43.54 μmol h-1",
+        "Sacrificial Reagent: triethanolamine",
+        "Niobate: Ca2Nb2TaO10"
+      ]
+    },
+    {
+      "id": "R46204",
+      "title": "UV and visible light driven H2 photo-production using Nb-doped TiO2: Comparing Pt and Pd co-catalysts",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 500 W Hg-Xe 420-680 nm",
+        "Co-Catalyst: pd",
+        "Sacrificial Reagent: methanol",
+        "H2 Rate: ~0.6 mmol g-1 h-1",
+        "Semiconductor: TiO2",
+        "Co-Catalyst: pt"
+      ]
+    },
+    {
+      "id": "R46215",
+      "title": "Comparative study between pristine and Nb-modiﬁed BiVO4 ﬁlms employed for photoelectrocatalytic production of H2 by water splitting and for photocatalytic degradation of organic pollutants under simulated solar light",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Light Source: 100 mW cm-2Xe",
+        "Co-Catalyst: -",
+        "Sacrificial Reagent: NaHCO3(electrolyte)",
+        "H2 Rate: 0.18 mmol h-1",
+        "Semiconductor: BiVO4"
+      ]
+    },
+    {
+      "id": "R46221",
+      "title": "CO2 reduction over NaNbO3 and NaTaO3 perovskite photocatalysts",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Nb-Based Material: NaNbO3",
+        "Light Source: 300 W Xe > 420 nm",
+        "Co-Catalyst: None",
+        "Main Products: CO, CH4, CH3OH, H2"
+      ]
+    }
+  ]
+}

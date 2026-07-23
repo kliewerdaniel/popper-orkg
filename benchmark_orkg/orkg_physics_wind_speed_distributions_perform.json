@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_physics_wind_speed_distributions_perform",
+  "title": "Wind speed distributions performance analysis (physics)",
+  "discipline": "physics",
+  "orkg_problem_id": "resource/R705602",
+  "discovery_year": 2017,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R709086",
+    "citation": "Comparison of numerical methods and metaheuristic optimization algorithms for estimating parameters for wind energy potential assessment in low wind regions",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Wind speed distributions performance analysis', the held-out later work (Comparison of numerical methods and metaheuristic optimization algorithms for estimating parameters for wind energy pote) established: country: China; number of time series: Quantity Value; length of time series: Time duration",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R707578",
+      "title": "Probability distributions of wind speed in the UAE",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "country: United Arab Emirates",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind rose presence: no",
+        "has wind power density: no"
+      ]
+    },
+    {
+      "id": "R705610",
+      "title": "Evaluating the suitability of wind speed probability distribution models: A case of study of east and southeast parts of Iran",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: Iran",
+        "number of time series: Quantity Value",
+        "Location: Onshore",
+        "temporal resolution: Time duration",
+        "length of time series: Time duration",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R709022",
+      "title": "Sensitivity analysis of different wind speed distribution models with actual and truncated wind data: A case study for Kerman, Iran",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: Iran",
+        "number of time series: Quantity Value",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R711419",
+      "title": "Generalized Extreme Value Distribution Models for the Assessment of Seasonal Wind Energy Potential of Debuncha, Cameroon",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: Cameroon",
+        "data source: NASA satellite",
+        "number of time series: Quantity Value",
+        "length of time series: Time duration",
+        "wind rose presence: no",
+        "Location: Onshore"
+      ]
+    },
+    {
+      "id": "R705585",
+      "title": "An alternative distribution to Weibull for modeling the wind speed data: Inverse Weibull distribution",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: Turkey",
+        "number of time series: Quantity Value",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R709096",
+      "title": "On estimating uncertainty of wind energy with mixture of distributions",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: China",
+        "number of time series: Quantity Value",
+        "length of time series: Time duration",
+        "Location: Onshore",
+        "temporal resolution: Time duration",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R707902",
+      "title": "High Spatial Resolution Simulation of Annual Wind Energy Yield Using Near-Surface Wind Speed Time Series",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: Germany",
+        "Location: Onshore",
+        "length of time series: Time duration",
+        "number of time series: Quantity Value",
+        "temporal resolution: Time duration",
+        "wind speed height: height"
+      ]
+    },
+    {
+      "id": "R707542",
+      "title": "A mixture kernel density model for wind speed probability distribution estimation",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: USA",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "number of goodness of fit metrics: Quantity Value"
+      ]
+    },
+    {
+      "id": "R707587",
+      "title": "Review of criteria for the selection of probability distributions for wind speed data and introduction of the moment and L-moment ratio diagram methods, with a case study",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: United Arab Emirates",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind speed height: height",
+        "number of goodness of fit metrics: Quantity Value"
+      ]
+    },
+    {
+      "id": "R707692",
+      "title": "Heterogeneous mixture distributions for modeling wind speed, application to the UAE",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "country: United Arab Emirates",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind speed height: height",
+        "wind rose presence: no"
+      ]
+    }
+  ]
+}

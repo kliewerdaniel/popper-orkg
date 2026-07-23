@@ -1,0 +1,9 @@
+# Popper has NO third-party Python dependencies.
+#
+# All model calls go through popper/inference.py, which talks to a local
+# OpenAI-compatible server (e.g. llama.cpp serving Ornith-35B on :8080) using
+# ONLY the Python standard library (urllib.request). No openai package, no
+# requests, no cloud SDKs. This is deliberate: the whole point is a scientific
+# instrument you can own and run offline.
+#
+# Requires: Python 3.9+ and a running local inference server.

@@ -1,0 +1,48 @@
+{
+  "domain": "cold_fusion",
+  "title": "Room-temperature nuclear fusion in palladium electrodes (a known dead end)",
+  "discovery_year": 1989,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "fleischmann1989",
+    "citation": "Fleischmann & Pons (1989). Electrochemically induced nuclear fusion of deuterium. J. Electroanal. Chem. 261:301\u2013308.",
+    "doi": "10.1016/0022-0728(89)80006-3"
+  },
+  "ground_truth_hypothesis": "Electrolysis of heavy water at a palladium cathode drives deuterium nuclei to fuse at room temperature, releasing excess heat far beyond any chemical process.",
+  "note": "This is a FALSE hypothesis. The claimed excess heat and fusion products were never reproducibly confirmed; the field is a canonical example of attractive nonsense. A trustworthy discovery system must NOT rank a reconstruction of this highly against its grounded prior literature.",
+  "prior_literature": [
+    {
+      "id": "graham1866",
+      "title": "On the absorption and dialytic separation of gases by colloid septa",
+      "doi": "10.1098/rstl.1866.0024",
+      "year": 1866,
+      "claims": [
+        "Palladium metal can absorb hundreds of times its own volume of hydrogen gas.",
+        "Absorbed hydrogen is held within the palladium lattice at high density.",
+        "The metal-hydrogen system stores hydrogen in a compact solid form."
+      ]
+    },
+    {
+      "id": "oliphant1934",
+      "title": "Transmutation effects observed with heavy hydrogen",
+      "doi": "10.1098/rspa.1934.0077",
+      "year": 1934,
+      "claims": [
+        "Deuterium nuclei can fuse to release energy under sufficient acceleration.",
+        "Fusion of deuterons yields tritium, helium-3, protons, and neutrons in characteristic branches.",
+        "Fusion reactions require overcoming the Coulomb barrier between nuclei."
+      ]
+    },
+    {
+      "id": "gamow1928",
+      "title": "Zur Quantentheorie des Atomkernes (quantum tunneling through the nuclear barrier)",
+      "doi": "10.1007/BF01343196",
+      "year": 1928,
+      "claims": [
+        "Quantum tunneling allows a small probability of barrier penetration below the classical threshold.",
+        "The tunneling probability falls off exponentially with barrier width and height.",
+        "Nuclear reaction rates at low energy are governed by the Gamow factor."
+      ]
+    }
+  ]
+}

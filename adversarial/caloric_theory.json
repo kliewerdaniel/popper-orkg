@@ -1,0 +1,48 @@
+{
+  "domain": "caloric_theory",
+  "title": "Caloric: heat as a conserved self-repellent fluid (a known dead end)",
+  "discovery_year": 1783,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "lavoisier1783",
+    "citation": "Lavoisier & Laplace (1783). Memoire sur la chaleur (caloric as a material fluid).",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Heat is a weightless, conserved material fluid called caloric whose self-repulsive particles flow from hot to cold bodies; the total quantity of caloric in the universe is fixed, and temperature reflects the density of caloric within a body.",
+  "note": "FALSE. Overturned by the mechanical theory of heat (Rumford's cannon-boring, Joule's equivalent of heat): heat is energy transfer, not a conserved substance. Caloric fit calorimetry and gas-expansion data well, which is precisely why it is a good adversarial case. A trustworthy system should expose that the conservation claim is unsupported by the friction observations.",
+  "prior_literature": [
+    {
+      "id": "black1761",
+      "title": "Lectures on latent and specific heat",
+      "doi": "",
+      "year": 1761,
+      "claims": [
+        "Melting ice absorbs heat without changing temperature (latent heat).",
+        "Different substances require different quantities of heat for equal temperature rises.",
+        "Heat added to a body can be measured by its temperature change and mass."
+      ]
+    },
+    {
+      "id": "fahrenheit1724",
+      "title": "Experiments on the degree of heat of boiling liquids",
+      "doi": "",
+      "year": 1724,
+      "claims": [
+        "Temperature can be measured reproducibly with a mercury thermometer.",
+        "Each liquid has a characteristic boiling temperature at fixed pressure.",
+        "Heat flows from a warmer body to a cooler one until equilibrium."
+      ]
+    },
+    {
+      "id": "boerhaave1732",
+      "title": "Elementa Chemiae (on the distribution of fire/heat)",
+      "doi": "",
+      "year": 1732,
+      "claims": [
+        "Heat distributes itself uniformly among bodies left in contact.",
+        "A hot body loses exactly as much heat as neighboring cold bodies gain.",
+        "Heat appears to behave as a quantity that moves between bodies."
+      ]
+    }
+  ]
+}

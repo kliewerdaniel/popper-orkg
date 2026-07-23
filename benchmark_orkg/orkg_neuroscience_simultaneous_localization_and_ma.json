@@ -1,0 +1,146 @@
+{
+  "domain": "orkg_neuroscience_simultaneous_localization_and_ma",
+  "title": "Simultaneous localization and mapping (neuroscience)",
+  "discipline": "neuroscience",
+  "orkg_problem_id": "resource/PWC_SIMULTANEOUS_LOCALIZATION_AND_MAPPING_PROBLEM",
+  "discovery_year": 2024,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1411278",
+    "citation": "ECMD: An Event-Centric Multisensory Driving Dataset for SLAM",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Simultaneous localization and mapping', the held-out later work (ECMD: An Event-Centric Multisensory Driving Dataset for SLAM) established: sensor: DAVIS346; sensor: DVXplorer; image resolution: 346×260",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1411261",
+      "title": "Towards Privacy-Preserving Visual Recognition via Adversarial Training: A Pilot Study",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "sensor: DAVIS240C",
+        "image resolution: 240×180",
+        "Data format: ROS bag",
+        "No. of samples (sequences): 8",
+        "tasks: depth estimation",
+        "Category: Learning"
+      ]
+    },
+    {
+      "id": "R642467",
+      "title": "The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "tasks: Classification",
+        "tasks: Optical Flow Estimation",
+        "Category: Learning",
+        "description: 4 grid of convolutions",
+        "Has characteristics: Temporally quantized information into B bins",
+        "Network architecture: deep neural network"
+      ]
+    },
+    {
+      "id": "R642470",
+      "title": "DSEC: A Stereo Event Camera Dataset for Driving Scenarios",
+      "doi": "",
+      "year": 2021,
+      "claims": [
+        "tasks: Classification",
+        "tasks: Optical Flow Estimation",
+        "Category: Learning",
+        "description: End-to-end event surfaces",
+        "Has characteristics: Temporally quantized information into B bins",
+        "Network architecture: deep neural network"
+      ]
+    },
+    {
+      "id": "R1411264",
+      "title": "TUM-VIE: The TUM Stereo Visual-Inertial Event Dataset",
+      "doi": "",
+      "year": 2021,
+      "claims": [
+        "sensor: Prophesee Gen 4 HD",
+        "image resolution: 1280×720",
+        "Data format: HDF5",
+        "Data format: text",
+        "No. of samples (sequences): 21",
+        "tasks: depth estimation"
+      ]
+    },
+    {
+      "id": "R642476",
+      "title": "VECtor: A Versatile Event-Centric Benchmark for Multi-Sensor SLAM",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "tasks: Classification",
+        "Category: surface",
+        "description: Image of most recent timestamps",
+        "Has characteristics: Discards all prior timestamps",
+        "Network architecture: deep neural network",
+        "dimensions: 2d"
+      ]
+    },
+    {
+      "id": "R1411268",
+      "title": "EVIMO2: An Event Camera Dataset for Motion Segmentation, Optical Flow, Structure from Motion, and Visual Inertial Odometry in Indoor Scenes with Monocular or Stereo Algorithms",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "sensor: Prophesee Gen 3.1",
+        "sensor: Samsung Gen 3",
+        "image resolution: 640×480",
+        "Data format: text",
+        "Data format: NPZ",
+        "Data format: ROS bag"
+      ]
+    },
+    {
+      "id": "R1411295",
+      "title": "ESVIO: Event-Based Stereo Visual Inertial Odometry",
+      "doi": "",
+      "year": 2023,
+      "claims": [
+        "sensor: DAVIS346",
+        "image resolution: 346×260",
+        "Data format: ROS bag",
+        "No. of samples (sequences): 10",
+        "tasks: depth estimation"
+      ]
+    },
+    {
+      "id": "R1411274",
+      "title": "M3ED: Multi-Robot, Multi-Sensor, Multi-Environment Event Dataset",
+      "doi": "",
+      "year": 2023,
+      "claims": [
+        "sensor: Prophesee EVK4 HD",
+        "image resolution: 1280×720",
+        "Data format: ROS bag",
+        "Data format: HDF5",
+        "No. of samples (sequences): 67",
+        "tasks: depth estimation"
+      ]
+    },
+    {
+      "id": "R1411281",
+      "title": "Stereo Visual Localization Dataset Featuring Event Cameras",
+      "doi": "",
+      "year": 2023,
+      "claims": [
+        "sensor: DVXplorer",
+        "image resolution: 640×480",
+        "Data format: ROS bag",
+        "No. of samples (sequences): 15",
+        "tasks: depth estimation"
+      ]
+    }
+  ]
+}

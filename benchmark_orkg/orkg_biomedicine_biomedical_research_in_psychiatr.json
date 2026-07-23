@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_biomedicine_biomedical_research_in_psychiatr",
+  "title": "Biomedical research in  Psychiatric Disorders (biomedicine)",
+  "discipline": "biomedicine",
+  "orkg_problem_id": "resource/R70420",
+  "discovery_year": 2018,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R138825",
+    "citation": "Comprehensive functional genomic resource and integrative model for the human brain",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Biomedical research in  Psychiatric Disorders', the held-out later work (Comprehensive functional genomic resource and integrative model for the human brain) established: Used models: Deep structured phenotype network (DSPN); Findings: The model provided insights about intermediate phenotypes and their connections to high-level phenotypes (disease traits).; Study cohort: PsychENCODE Consortium dataset g",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R138876",
+      "title": "Mood disorder identification using deep bottleneck features of elicited speech",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: LSTM",
+        "Used models: Autoencoder",
+        "Findings: The denoising autoencoder adopted emotion domain data to the speech data space to generate emotion profiles (EPs). The LSTM characterized the temporal evolution of the EP sequence with respect to eliciting emotional videos.",
+        "Outcome assessment: human annotation",
+        "Study cohort: 15 BDs, 15 UDs, and 15 HCs (Chi-Mei mood dataset)",
+        "data: Elicited speech voice data"
+      ]
+    },
+    {
+      "id": "R138879",
+      "title": "Exploring microscopic fluctuation of facial expression for mood disorder classification",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: LSTM",
+        "Used models: Autoencoder",
+        "Findings: The study modeled the longterm variation among different mood disorders types by LSTM.",
+        "Outcome assessment: human annotation",
+        "Study cohort: 12 BDs, 12 MDDs, and 12 HCs (Chi-Mei mood dataset)",
+        "data: Elicited video data"
+      ]
+    },
+    {
+      "id": "R138884",
+      "title": "Automatic Detection of ADHD and ASD from Expressive Behaviour in RGBD Data",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: CNN",
+        "Used models: Facial expression RGBD data",
+        "Findings: The study established the relationship between facial expression/gestures and neurodevelopmental conditions such as ADHD and ASD.",
+        "Study cohort: 4 ADHDs, 22 ASDs, 11 ADHD +ASDs, and 18 HCs",
+        "performance: ACC= 0.96 (condition vs. HC) and 0.93 (ADHD + ASD vs. ASD only)",
+        "Aim: Prediction of ADHD and ASD"
+      ]
+    },
+    {
+      "id": "R138927",
+      "title": "DeepBreath: Deep learning of breathing patterns for automatic stress recognition using low-cost thermal imaging in unconstrained settings",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: CNN",
+        "Findings: The model identified psychological stress level by using a low-cost thermal camera, which tracks the person’s breathing patterns.",
+        "Outcome assessment: human annotation",
+        "Study cohort: 8 Healthy adultsh",
+        "data: Thermal images",
+        "performance: ACC= 0.846 (no stress vs. stress) and 0.565 (no stress vs. low-level stress vs. high-level stress)"
+      ]
+    },
+    {
+      "id": "R138931",
+      "title": "DCNN and DNN based multi-modal depression recognition",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: CNN",
+        "Used models: DFNN",
+        "Findings: The study proposed a multimodal approach: two CNNs were introduced to encode audio and video data, respectively. Then a fully connected DNN was used to combine the two channel feature maps to predict PHQ-8 scores.",
+        "Outcome assessment: PHQ-8 score",
+        "Study cohort: 189 Segments of clinical interview (AVEC dataset)",
+        "data: Voice data"
+      ]
+    },
+    {
+      "id": "R138934",
+      "title": "An Affect Prediction Approach Through Depression Severity Parameter Incorporation in Neural Networks",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: DFNN",
+        "Findings: The DFNN incorporated depression severity as the parameter, linking the effects of depression on subjects’ affective expressions.",
+        "Outcome assessment: Valence",
+        "Outcome assessment: MAE (Arousal)",
+        "Outcome assessment: dominance ratings by human annotation",
+        "Study cohort: 300 Video samples (AVEC dataset)"
+      ]
+    },
+    {
+      "id": "R139004",
+      "title": "Characterisation of mental health conditions in social media using Informed Deep Learning",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: CNN",
+        "Used models: DFNN",
+        "Findings: (1) The most common misclassification is depression; (2) Some of the themes are highly inter-related and not always distinguishable as separate and exclusive classes.",
+        "Outcome assessment: Human annotation",
+        "Study cohort: 538,245 Posts related to 11 mental themes, 476,388 non-mental health postsi",
+        "data: Reddit posts"
+      ]
+    },
+    {
+      "id": "R139009",
+      "title": "Correlating Stressor Events for Social Network Based Adolescent Stress Prediction",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: RNN",
+        "Findings: The model incorporated relationships of stressor events and improved the prediction of stress in adolescent.",
+        "Outcome assessment: Human annotation",
+        "Study cohort: 29,232 Posts of 124 students, containing 122 study-related stressor events",
+        "data: Tencent Weibo posts",
+        "performance: MSE= 0.19; Baseline MSE= 0.25"
+      ]
+    },
+    {
+      "id": "R139014",
+      "title": "Detecting Stress Based on Social Interactions in Social Networks",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: CNN",
+        "Findings: Users stress state is closely related to that of his/her friends in social media.",
+        "Outcome assessment: Pattern matching in tweets",
+        "Study cohort: 11,074 Subjects of stress, 12,230 subjects of no stress",
+        "data: Sina Weibo posts",
+        "data: Tencent Weibo posts"
+      ]
+    },
+    {
+      "id": "R139019",
+      "title": "UArizona at the CLEF eRisk 2017 Pilot Task: Linear and Recurrent Models for Early Depression Detection",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Used models: GRU",
+        "Findings: The RNN captured sequential information from texts with sequential property.",
+        "Outcome assessment: Self-declaration of depression in posts",
+        "Study cohort: 136 Depressed subjects, 752 HCs",
+        "data: Reddit posts",
+        "performance: F-score = 0.64; Baseline F-score = 0.40"
+      ]
+    }
+  ]
+}

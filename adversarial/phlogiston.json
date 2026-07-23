@@ -1,0 +1,48 @@
+{
+  "domain": "phlogiston",
+  "title": "Phlogiston as the substance released during combustion (a known dead end)",
+  "discovery_year": 1703,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "stahl1703",
+    "citation": "Stahl, G.E. (1703). Specimen Beccherianum (systematic exposition of phlogiston theory).",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Combustible bodies contain a material substance, phlogiston, which is released into the air during burning; a body ceases to burn when the surrounding air becomes saturated with phlogiston.",
+  "note": "This is a FALSE hypothesis, later overturned by the oxygen theory of combustion. It fits the prior observations well, which is exactly why it is a good adversarial test: a discovery system that rewards mere narrative fit will rank it highly. A trustworthy one should not.",
+  "prior_literature": [
+    {
+      "id": "boyle1661",
+      "title": "The Sceptical Chymist",
+      "doi": "",
+      "year": 1661,
+      "claims": [
+        "Combustion requires the presence of air.",
+        "A candle is extinguished in a sealed vessel once the air is spent.",
+        "Materials change in weight and appearance when burned or calcined."
+      ]
+    },
+    {
+      "id": "hooke1665",
+      "title": "Micrographia (observations on combustion and air)",
+      "doi": "",
+      "year": 1665,
+      "claims": [
+        "There is a component of air that is necessary to sustain flame.",
+        "Combustion and the calcination of metals appear to consume something from the air.",
+        "A flame is dissolved by a substance present in common air."
+      ]
+    },
+    {
+      "id": "mayow1674",
+      "title": "Tractatus quinque medico-physici (on nitro-aerial particles)",
+      "doi": "",
+      "year": 1674,
+      "claims": [
+        "Both respiration and combustion consume a specific fraction of the air.",
+        "Metals gain weight when calcined in air.",
+        "A finite quantity of the active air-component supports burning before it is exhausted."
+      ]
+    }
+  ]
+}

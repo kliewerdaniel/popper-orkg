@@ -1,0 +1,140 @@
+{
+  "domain": "orkg_chemistry_tio2_photocatalysis",
+  "title": "TiO2 Photocatalysis (chemistry)",
+  "discipline": "chemistry",
+  "orkg_problem_id": "resource/R45097",
+  "discovery_year": 2010,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R46117",
+    "citation": "Self-Doped Ti3+ Enhanced Photocatalyst for Hydrogen Production under Visible Light",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'TiO2 Photocatalysis', the held-out later work (Self-Doped Ti3+ Enhanced Photocatalyst for Hydrogen Production under Visible Light) established: chemical doping method: high-temperature calcination; visible-light driven photocatalysis: high visible-light photocatalytic activity for the generation of hydrogen gas from water; precursors: TTIP, 2-ethylimidazole calcination at 500 °C",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R45114",
+      "title": "Effect of pH on absorption spectra of photogenerated holes in nanocrystalline TiO2 films",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "conditions: TiO2 nc-films (10-15 nm)\\n λex = 355 nm\\n (10 ns, 0.14-1.1 mJ)",
+        "transient absorption:trapped holes: 400/550 nm\\n t50% = 0.2-0.4μs",
+        "transient absorption:trapped electrons: not reported"
+      ]
+    },
+    {
+      "id": "R45116",
+      "title": "Dynamics of efficient electron–hole separation in TiO2 nanoparticles revealed by femtosecond transient absorption spectroscopy under the weak-excitation condition",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "conditions: TiO2 nc-films (10-15 nm),\\n λex = 355 nm (120 fs, <160 nJ)",
+        "transient absorption:trapped holes: 400 nm\\n ~220 fs",
+        "transient absorption:trapped electrons: 800/2500 nm,\\n ~170 fs (trapping),\\n 500 ps (relaxation)"
+      ]
+    },
+    {
+      "id": "R46087",
+      "title": "Preparation, Photocatalytic Activity, and Mechanism of Nano-TiO2 Co-Doped with Nitrogen and Iron (III)",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "chemical doping method: hydrothermal",
+        "visible-light driven photocatalysis: photodegradation of Rhodamine B",
+        "precursors: Ti source, TBOT; N source, NH4Cl; Fe source, Fe(NO3)3",
+        "doping elements: Fe and N"
+      ]
+    },
+    {
+      "id": "R46091",
+      "title": "Synthesis and Characterization of Nitrogen-Doped TiO2 Nanophotocatalyst with High Visible Light Activity",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "chemical doping method: microemulsion",
+        "visible-light driven photocatalysis: photodegradation of Rhodamine B and 2,4-dichlorophenol",
+        "precursors: Ti source, TBOT; N source, triethylamine, urea, thiourea, and hydrazine hydrate",
+        "doping elements: N"
+      ]
+    },
+    {
+      "id": "R46123",
+      "title": "Effective Visible Light-Activated B-Doped and B,N-Codoped TiO2 Photocatalysts",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "chemical doping method: high-temperature calcination",
+        "visible-light driven photocatalysis: photocatalytic decomposition of methyl tertiary butyl ether",
+        "precursors: Ti source, TiCl4; B source, BH3/THF-solution",
+        "doping elements: B"
+      ]
+    },
+    {
+      "id": "R46068",
+      "title": "N-Doped TiO2 Nanoparticle Based Visible Light Photocatalyst by Modified Peroxide Sol−Gel Method",
+      "doi": "",
+      "year": 2008,
+      "claims": [
+        "chemical doping method: sol-gel",
+        "visible-light driven photocatalysis: photocatalytic degradation of methylene blue; effective agents against both bacteria and stearic acid using a white light source",
+        "precursors: Ti source, TBOT/TTIP; N source, urea/NH4Cl/thiourea/ethylmethylamine",
+        "doping elements: N"
+      ]
+    },
+    {
+      "id": "R46074",
+      "title": "Chemical State and Environment of Boron Dopant in B,N-Codoped Anatase TiO2 Nanoparticles: An Avenue for Probing Diamagnetic Dopants in TiO2 by Electron Paramagnetic Resonance Spectroscopy",
+      "doi": "",
+      "year": 2008,
+      "claims": [
+        "chemical doping method: sol-gel",
+        "visible-light driven photocatalysis: hydrogen evolution from water splitting",
+        "precursors: Ti source, TTIP/TBOT; N source, NH4OH/urea; B source, H3BO3",
+        "doping elements: B and N"
+      ]
+    },
+    {
+      "id": "R46097",
+      "title": "Band structure and visible light photocatalytic activity of multi-type nitrogen doped TiO2 nanoparticles prepared by thermal decomposition",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "chemical doping method: chemical precipitation",
+        "visible-light driven photocatalysis: photodegradation rate of 2,4-DCP or toluene",
+        "precursors: Ti source, TBOT/Ti(SO4)2; N source, NH4OH, NH4NO3",
+        "doping elements: N"
+      ]
+    },
+    {
+      "id": "R46109",
+      "title": "Preparation, characterization and visible-light-driven photocatalytic activity of Fe-doped titania nanorods and first-principles study for electronic structures",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "chemical doping method: impregnation",
+        "visible-light driven photocatalysis: photodegradation of oxalic acid or photocatalytic oxidation of acetone; photocatalytic degradation of acetophenone",
+        "precursors: Ti source, P25/titanate nanotubes; Fe source, Fe(acac)3/(Fe(NO3)3)/Fe2(SO4)3/FeCl3",
+        "doping elements: Fe"
+      ]
+    },
+    {
+      "id": "R46111",
+      "title": "Photocatalytic Performance of N-Doped TiO2 Adsorbed with Fe3+ Ions under Visible Light by a Redox Treatment",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "chemical doping method: impregnation",
+        "visible-light driven photocatalysis: photodegradation of methylene blue",
+        "precursors: Ti source, Ti(SO4)2; N source, NH4OH; Fe source, ferric chloride",
+        "doping elements: N and Fe"
+      ]
+    }
+  ]
+}

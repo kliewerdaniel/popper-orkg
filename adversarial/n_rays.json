@@ -1,0 +1,48 @@
+{
+  "domain": "n_rays",
+  "title": "N-rays: a novel radiation emitted by most materials (a known dead end)",
+  "discovery_year": 1903,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "blondlot1903",
+    "citation": "Blondlot, R. (1903). Sur une nouvelle espece de lumiere. Comptes Rendus 136:666.",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Most materials (metals, treated steel, even the human nervous system) emit a new form of radiation, N-rays, which increases the brightness of a small electric spark and can be refracted by an aluminium prism into a spectrum.",
+  "note": "FALSE. N-rays were an artifact of subjective observation of faint sparks; blinded tests (Wood, 1904) showed the effect vanished when the aluminium prism was secretly removed. A trustworthy system must not rank this reconstruction highly, and should expose weak grounding for the key claims.",
+  "prior_literature": [
+    {
+      "id": "rontgen1895",
+      "title": "On a new kind of rays (X-rays)",
+      "doi": "",
+      "year": 1895,
+      "claims": [
+        "A previously unknown penetrating radiation is emitted by a Crookes tube.",
+        "The new rays expose photographic plates and cause fluorescence.",
+        "The rays are invisible to the eye and pass through opaque materials."
+      ]
+    },
+    {
+      "id": "becquerel1896",
+      "title": "On the invisible radiations emitted by phosphorescent bodies",
+      "doi": "",
+      "year": 1896,
+      "claims": [
+        "Uranium salts spontaneously emit a penetrating radiation.",
+        "The radiation fogs photographic plates without an external excitation source.",
+        "Different materials appear to emit invisible radiations of varying character."
+      ]
+    },
+    {
+      "id": "curie1898",
+      "title": "On a new radioactive substance contained in pitchblende",
+      "doi": "",
+      "year": 1898,
+      "claims": [
+        "New elements can be identified by the intensity of their emitted radiation.",
+        "Radiation intensity is a measurable physical property of a substance.",
+        "Faint radiation effects can be detected with sensitive instruments."
+      ]
+    }
+  ]
+}

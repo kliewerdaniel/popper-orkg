@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_environmental_science_biodiversity_inventories_with_dn",
+  "title": "Biodiversity inventories with DNA based-tools (environmental_science)",
+  "discipline": "environmental_science",
+  "orkg_problem_id": "resource/R108963",
+  "discovery_year": 2016,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R145296",
+    "citation": "Molecular identification of mosquitoes (Diptera: Culicidae) in southeastern Australia",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Biodiversity inventories with DNA based-tools', the held-out later work (Molecular identification of mosquitoes (Diptera: Culicidae) in southeastern Australia) established: DNA sequencing method: Sanger sequencing; No. of estimated species (Method): NJ clustering; lower number estimated species (Method): current taxonomy",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R145497",
+      "title": "Half of the European fruit fly species barcoded (Diptera, Tephritidae); a feasibility test for molecular identification",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): current taxonomy",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): current taxonomy",
+        "Biogeographical region: Palearctic",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R146639",
+      "title": "DNA barcodes for species delimitation in Chironomidae (Diptera): a case study on the genus Labrundinia",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): NJ clustering",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): Barcoding gap",
+        "Biogeographical region: Neotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R146643",
+      "title": "Revision of Nearctic Dasysyrphus Enderlein (Diptera: Syrphidae)",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): NJ clustering",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): NJ clustering",
+        "Biogeographical region: Nearctic",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145304",
+      "title": "Analyzing Mosquito (Diptera: Culicidae) Diversity in Pakistan by DNA Barcoding",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): BINs",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): BINs",
+        "Biogeographical region: Palearctic",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145495",
+      "title": "DNA Barcoding for the Identification of Sand Fly Species (Diptera, Psychodidae, Phlebotominae) in Colombia",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): NJ clustering",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): current taxonomy",
+        "Biogeographical region: Neotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R137111",
+      "title": "DNA barcode reference library for Iberian butterflies enables a continental-scale preview of potential cryptic diversity",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "higher number estimated species (Method): GMYC single locus",
+        "lower number estimated species (Method): current taxonomy",
+        "No. of estimated species (Method): GMYC single locus",
+        "Biogeographical region: Palearctic",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145434",
+      "title": "DNA Barcoding of Neotropical Sand Flies (Diptera, Psychodidae, Phlebotominae): Species Identification and Discovery within Brazil",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): Barcoding gap",
+        "lower number estimated species (Method): ABGD",
+        "higher number estimated species (Method): Barcoding gap",
+        "Biogeographical region: Neotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145437",
+      "title": "DNA Barcoding to Improve the Taxonomy of the Afrotropical Hoverflies (Insecta: Diptera: Syrphidae)",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): current taxonomy",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): current taxonomy",
+        "Biogeographical region: Afrotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145468",
+      "title": "DNA barcoding of Neotropical black flies (Diptera: Simuliidae): Species identification and discovery of cryptic diversity in Mesoamerica",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): current taxonomy",
+        "lower number estimated species (Method): current taxonomy",
+        "higher number estimated species (Method): current taxonomy",
+        "Biogeographical region: Neotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    },
+    {
+      "id": "R145482",
+      "title": "DNA barcoding for identification of sand fly species (Diptera: Psychodidae) from leishmaniasis-endemic areas of Peru",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "DNA sequencing method: Sanger sequencing",
+        "No. of estimated species (Method): NJ clustering",
+        "higher number estimated species (Method): current taxonomy",
+        "lower number estimated species (Method): current taxonomy",
+        "Biogeographical region: Neotropical",
+        "Class (Taxonomy - biology): Insecta"
+      ]
+    }
+  ]
+}

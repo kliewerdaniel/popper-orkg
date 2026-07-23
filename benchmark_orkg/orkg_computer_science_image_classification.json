@@ -1,0 +1,151 @@
+{
+  "domain": "orkg_computer_science_image_classification",
+  "title": "Image classification (computer_science)",
+  "discipline": "computer_science",
+  "orkg_problem_id": "resource/PWC_IMAGE_CLASSIFICATION_PROBLEM",
+  "discovery_year": 2023,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1853074",
+    "citation": "Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Image classification', the held-out later work (Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels) established: model: Lra-diffusion clip vit; source code: https://github.com/puar-playground/lra-diffusion; Benchmark: Benchmark Food-101n",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1855683",
+      "title": "Pattern Attention Transformer with Doughnut Kernel",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Pat-b",
+        "Benchmark: Benchmark Imagenet",
+        "model: Pat-s"
+      ]
+    },
+    {
+      "id": "R1855693",
+      "title": "IncepFormer: Efficient Inception Transformer with Pyramid Pooling for Semantic Segmentation",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Ipt-b",
+        "source code: https://github.com/shendu0321/incepformer",
+        "Benchmark: Benchmark Imagenet",
+        "model: Ipt-s",
+        "model: Ipt-t"
+      ]
+    },
+    {
+      "id": "R1855806",
+      "title": "Spatial-Channel Token Distillation for Vision MLPs",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Resmlp-b24 std",
+        "source code: https://github.com/devrimcavusoglu/std",
+        "Benchmark: Benchmark Imagenet",
+        "model: Cyclemlp-b2 std",
+        "model: Mixer-s16 std"
+      ]
+    },
+    {
+      "id": "R1855833",
+      "title": "From Xception to NEXcepTion: New Design Decisions and Neural Architecture Search",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Nexception-s",
+        "source code: https://github.com/hadarshavit/nexception",
+        "Benchmark: Benchmark Imagenet",
+        "model: Nexception-tp",
+        "model: Nexception-t"
+      ]
+    },
+    {
+      "id": "R1855873",
+      "title": "MobileOne: An Improved One millisecond Mobile Backbone",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Mobileone-s4 distill",
+        "source code: https://github.com/rwightman/pytorch-image-models",
+        "source code: https://github.com/PaddlePaddle/PaddleDetection",
+        "source code: https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification/MobileOne",
+        "source code: https://github.com/apple/ml-mobileone",
+        "source code: https://github.com/frgfm/Holocron"
+      ]
+    },
+    {
+      "id": "R1855993",
+      "title": "MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Mobilevitv3-s",
+        "source code: https://github.com/microndla/mobilevitv3",
+        "source code: https://github.com/jaiwei98/mobile-vit-pytorch",
+        "Benchmark: Benchmark Imagenet",
+        "model: Mobilevitv3-1 0",
+        "model: Mobilevitv3-xs"
+      ]
+    },
+    {
+      "id": "R1856041",
+      "title": "ParC-Net: Position Aware Circular Convolution with Merits from ConvNets and Transformer",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Edgeformer-s",
+        "source code: https://github.com/hkzhang91/parc-net",
+        "source code: https://github.com/hkzhang91/pacc-net",
+        "source code: https://github.com/hkzhang91/edgeformer",
+        "Benchmark: Benchmark Imagenet"
+      ]
+    },
+    {
+      "id": "R1856060",
+      "title": "Separable Self-attention for Mobile Vision Transformers",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Mobilevitv2-1 0",
+        "source code: https://github.com/rwightman/pytorch-image-models",
+        "source code: https://github.com/apple/ml-cvnets",
+        "source code: https://github.com/leondgarse/keras_cv_attention_models/tree/main/keras_cv_attention_models/mobilevit",
+        "source code: https://github.com/jaiwei98/mobile-vit-pytorch",
+        "source code: https://gitlab.com/birder/birder"
+      ]
+    },
+    {
+      "id": "R1856094",
+      "title": "A Simple Episodic Linear Probe Improves Visual Recognition in the Wild",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Elp naive resnet50",
+        "source code: https://github.com/JDAI-CV/DCL",
+        "source code: https://github.com/akira-l/ELP",
+        "Benchmark: Benchmark Imagenet",
+        "model: Elp",
+        "Benchmark: Benchmark Cifar-10-lt 10"
+      ]
+    },
+    {
+      "id": "R1856122",
+      "title": "Semantic-Aware Local-Global Vision Transformer",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Salg-st",
+        "Benchmark: Benchmark Imagenet"
+      ]
+    }
+  ]
+}

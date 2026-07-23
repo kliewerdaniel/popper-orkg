@@ -1,0 +1,48 @@
+{
+  "domain": "miasma_theory",
+  "title": "Miasma: disease caused by bad air from decaying matter (a known dead end)",
+  "discovery_year": 1850,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "farr1852",
+    "citation": "Farr, W. (1852). Report on the mortality of cholera (elevation/miasma correlation).",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Epidemic diseases such as cholera are caused by miasma — a poisonous vapour emanating from rotting organic matter and foul air — and the incidence of disease is determined by proximity to and concentration of this bad air rather than by a transmissible living agent.",
+  "note": "FALSE. Overturned by germ theory (Snow's Broad Street pump, Koch, Pasteur): cholera is caused by a waterborne pathogen (Vibrio cholerae), not bad air. Miasma fit the correlation of disease with filth and low elevation, which is why it is a strong adversarial case: the correlation is real but the causal claim is wrong. A trustworthy system should not reconstruct the miasma causal claim as a grounded discovery.",
+  "prior_literature": [
+    {
+      "id": "sydenham1676",
+      "title": "Observationes Medicae (epidemic constitutions of the air)",
+      "doi": "",
+      "year": 1676,
+      "claims": [
+        "Epidemics rise and fall with the seasons and local atmospheric conditions.",
+        "Foul-smelling environments are associated with higher disease rates.",
+        "Disease outbreaks cluster in particular places and times."
+      ]
+    },
+    {
+      "id": "lind1753",
+      "title": "A Treatise on the Scurvy (environment and disease)",
+      "doi": "",
+      "year": 1753,
+      "claims": [
+        "Living conditions strongly affect the incidence of disease.",
+        "Crowded, damp, poorly ventilated spaces show elevated illness.",
+        "Improving the environment can reduce disease rates."
+      ]
+    },
+    {
+      "id": "chadwick1842",
+      "title": "Report on the Sanitary Condition of the Labouring Population",
+      "doi": "",
+      "year": 1842,
+      "claims": [
+        "Disease incidence correlates strongly with filth, sewage, and decaying matter.",
+        "Poorer, dirtier districts suffer markedly higher mortality.",
+        "Removing accumulated refuse is followed by reductions in disease."
+      ]
+    }
+  ]
+}

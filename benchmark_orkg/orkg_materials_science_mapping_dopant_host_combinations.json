@@ -1,0 +1,156 @@
+{
+  "domain": "orkg_materials_science_mapping_dopant_host_combinations",
+  "title": "Mapping dopant–host combinations in ALD thin films (materials_science)",
+  "discipline": "materials_science",
+  "orkg_problem_id": "resource/R1469730",
+  "discovery_year": 2021,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1469826",
+    "citation": "Atomic-layer design and properties of Pr-doped HfO2 thin films",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Mapping dopant–host combinations in ALD thin films', the held-out later work (Atomic-layer design and properties of Pr-doped HfO2 thin films) established: Host material: HfO2; Application: Memory; Application: Gate dielectrics",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1469867",
+      "title": "Incorporation of La in epitaxial SrTiO3 thin films grown by atomic layer deposition on SrTiO3-buffered Si (001) substrates",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Host material: SrTiO3",
+        "Application: Gate dielectrics",
+        "Dopant: La"
+      ]
+    },
+    {
+      "id": "R1469781",
+      "title": "Atomic Layer Deposition and Characterization of Dysprosium‐Doped Zirconium Oxide Thin Films",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "Host material: ZrO2",
+        "Dopant: Y",
+        "Dopant: La",
+        "Dopant: Dy",
+        "Application: Electrolyte",
+        "Application: Interphase"
+      ]
+    },
+    {
+      "id": "R1469857",
+      "title": "Luminescence properties of lanthanide and ytterbium lanthanide titanate thin films grown by atomic layer deposition",
+      "doi": "",
+      "year": 2015,
+      "claims": [
+        "Host material: TiO2",
+        "Application: Magnetics",
+        "Application: Luminescence",
+        "Dopant: La",
+        "Dopant: Pr",
+        "Dopant: Nd"
+      ]
+    },
+    {
+      "id": "R1469871",
+      "title": "Intense NIR emission in YVO<sub>4</sub>:Yb<sup>3+</sup> thin films by atomic layer deposition",
+      "doi": "",
+      "year": 2017,
+      "claims": [
+        "Host material: YVO4",
+        "Dopant: Nd",
+        "Dopant: Sm",
+        "Dopant: Eu",
+        "Dopant: Tb",
+        "Dopant: Dy"
+      ]
+    },
+    {
+      "id": "R1469753",
+      "title": "Near-infrared electroluminescence from atomic layer doped Al2O3:Yb nanolaminate films on silicon",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "Host material: Al2O3",
+        "Dopant: Yb",
+        "Dopant: (Er,Yb)",
+        "Dopant: Er",
+        "Application: Waveguides",
+        "Application: Luminescence"
+      ]
+    },
+    {
+      "id": "R1469850",
+      "title": "Electroluminescent Yb2O3:Er and Yb2Si2O7:Er nanolaminate films fabricated by atomic layer deposition on silicon",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "Host material: Yb2O3",
+        "Dopant: Er",
+        "Application: Luminescence",
+        "Host Material Matrix: Yb2O3",
+        "Annealing Temperature in °C: 1000",
+        "External Quantum Efficiency in %: 8.5"
+      ]
+    },
+    {
+      "id": "R1469756",
+      "title": "Energy Transfer Under Electrical Excitation and Enhanced Electroluminescence in the Nanolaminate Yb,Er Co‐Doped Al<sub>2</sub>O<sub>3</sub> Films",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "Host material: Al2O3",
+        "Dopant: Er",
+        "Dopant: Yb",
+        "Dopant: (Er,Yb)",
+        "Application: Waveguides",
+        "Application: Luminescence"
+      ]
+    },
+    {
+      "id": "R732893",
+      "title": "Control of Eu Oxidation State in Y2O3−xSx:Eu Thin-Film Phosphors Prepared by Atomic Layer Deposition: A Structural and Photoluminescence Study",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "Host material: Y2O3-xSx",
+        "Dopant: Eu",
+        "Application: Luminescence"
+      ]
+    },
+    {
+      "id": "R1469874",
+      "title": "Sensors for optical thermometry based on luminescence from layered YVO4: Ln3+ (Ln = Nd, Sm, Eu, Dy, Ho, Er, Tm, Yb) thin films made by atomic layer deposition",
+      "doi": "",
+      "year": 2019,
+      "claims": [
+        "Host material: YVO4",
+        "Dopant: Nd",
+        "Dopant: Sm",
+        "Dopant: Eu",
+        "Dopant: Tb",
+        "Dopant: Dy"
+      ]
+    },
+    {
+      "id": "R1469881",
+      "title": "Silicon-based electroluminescent polycrystalline Er-doped Yb3Al5O12 nanofilms fabricated by atomic layer deposition",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "Host material: Yb3Al5O12",
+        "Dopant: Er",
+        "Application: Luminescence",
+        "Host Material Matrix: Yb3Al5O12",
+        "Annealing Temperature in °C: 1100",
+        "External Quantum Efficiency in %: 5.2"
+      ]
+    }
+  ]
+}

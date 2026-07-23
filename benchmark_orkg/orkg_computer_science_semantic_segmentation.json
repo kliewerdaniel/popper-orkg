@@ -1,0 +1,159 @@
+{
+  "domain": "orkg_computer_science_semantic_segmentation",
+  "title": "Semantic segmentation (computer_science)",
+  "discipline": "computer_science",
+  "orkg_problem_id": "resource/PWC_SEMANTIC_SEGMENTATION_PROBLEM",
+  "discovery_year": 2023,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1801235",
+    "citation": "Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Semantic segmentation', the held-out later work (Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields) established: model: Swin-s rpe w gab; source code: https://github.com/kmbmjn/GaussianAttentionBias; Benchmark: Benchmark Ade20k val",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1802398",
+      "title": "Semantic Labeling of High Resolution Images Using EfficientUNets and Transformers",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Efficientunets and transformers",
+        "Benchmark: Benchmark Isprs vaihingen",
+        "Benchmark: Benchmark Isprs potsdam"
+      ]
+    },
+    {
+      "id": "R1802519",
+      "title": "EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Edgenext",
+        "source code: https://github.com/rwightman/pytorch-image-models",
+        "source code: https://github.com/leondgarse/keras_cv_attention_models/tree/main/keras_cv_attention_models/edgenext",
+        "source code: https://github.com/mmaaz60/EdgeNeXt",
+        "source code: https://github.com/amshaker/swiftformer",
+        "source code: https://github.com/alibaba-miil/solving_imagenet"
+      ]
+    },
+    {
+      "id": "R1802588",
+      "title": "Reversible Column Networks",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Revcol-h mask2former",
+        "source code: https://github.com/megvii-research/revcol",
+        "Benchmark: Benchmark Ade20k",
+        "model: Revcol-h dino",
+        "Benchmark: Benchmark Coco test-dev",
+        "Benchmark: Benchmark Coco minival"
+      ]
+    },
+    {
+      "id": "R1802623",
+      "title": "Focal Modulation Networks",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Focalnet-l mask2former",
+        "source code: https://github.com/PaddlePaddle/PaddleDetection",
+        "source code: https://github.com/keras-team/keras-io/blob/master/examples/vision/focal_modulation_network.py",
+        "source code: https://github.com/microsoft/FocalNet",
+        "source code: https://github.com/PaddlePaddle/PaddleYOLO",
+        "source code: https://github.com/shinya7y/UniverseNet"
+      ]
+    },
+    {
+      "id": "R1802664",
+      "title": "HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Hornet-l mask2former",
+        "source code: https://github.com/open-mmlab/mmclassification",
+        "source code: https://github.com/towhee-io/towhee",
+        "source code: https://github.com/chengtan9907/OpenSTL",
+        "source code: https://github.com/Westlake-AI/openmixup",
+        "source code: https://github.com/leondgarse/keras_cv_attention_models/tree/main/keras_cv_attention_models/hornet"
+      ]
+    },
+    {
+      "id": "R1802680",
+      "title": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Moat-4 in-22k pretraining single-scale",
+        "source code: https://github.com/google-research/deeplab2",
+        "source code: https://github.com/RooKichenn/pytorch-MOAT",
+        "Benchmark: Benchmark Ade20k",
+        "model: Moat-3 in-22k pretraining single-scale",
+        "Benchmark: Benchmark Coco minival"
+      ]
+    },
+    {
+      "id": "R1802818",
+      "title": "Exploring Target Representations for Masked Autoencoders",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Dbot vit-l clip",
+        "source code: https://github.com/liuxingbin/dbot",
+        "Benchmark: Benchmark Ade20k",
+        "Benchmark: Benchmark Coco test-dev",
+        "model: Dbot vit-l",
+        "model: Dbot vit-b clip"
+      ]
+    },
+    {
+      "id": "R1802991",
+      "title": "Context Autoencoder for Self-Supervised Representation Learning",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Cae vit-l upernet",
+        "source code: https://github.com/open-mmlab/mmselfsup",
+        "source code: https://github.com/PaddlePaddle/PaddleFL",
+        "source code: https://github.com/PaddlePaddle/VIMER",
+        "source code: https://github.com/lxtGH/CAE",
+        "source code: https://github.com/PaddlePaddle/PLSC/tree/master/task/ssl/cae"
+      ]
+    },
+    {
+      "id": "R1803091",
+      "title": "Active Token Mixer",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: Activemlp-l upernet",
+        "source code: https://github.com/microsoft/TokenMixers",
+        "source code: https://github.com/microsoft/activemlp",
+        "Benchmark: Benchmark Ade20k",
+        "model: Activemlp-b cascade mask r-cnn",
+        "Benchmark: Benchmark Coco minival"
+      ]
+    },
+    {
+      "id": "R1803141",
+      "title": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+      "doi": "",
+      "year": 2022,
+      "claims": [
+        "model: A2mim vit-b",
+        "source code: https://github.com/open-mmlab/mmpretrain",
+        "source code: https://github.com/Westlake-AI/openmixup",
+        "source code: https://github.com/Westlake-AI/A2MIM",
+        "Benchmark: Benchmark Ade20k",
+        "Benchmark: Benchmark Coco test-dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "domain": "orkg_environmental_science_global_climate_modelling",
+  "title": "Global climate modelling (environmental_science)",
+  "discipline": "environmental_science",
+  "orkg_problem_id": "resource/R9224",
+  "discovery_year": 2013,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R9221",
+    "citation": "The ACCESS coupled model: description, control climate and evaluation",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Global climate modelling', the held-out later work (The ACCESS coupled model: description, control climate and evaluation) established: Earth System Model: Ocean; Earth System Model: Sea Ice; Earth System Model: Land Ice",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R23368",
+      "title": "Present-Day Atmospheric Simulations Using GISS ModelE: Comparison to In Situ, Satellite, and Reanalysis Data",
+      "doi": "",
+      "year": 2006,
+      "claims": [
+        "Earth System Model: Aerosols",
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Atmospheric Chemistry",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean"
+      ]
+    },
+    {
+      "id": "R23383",
+      "title": "Present-Day Atmospheric Simulations Using GISS ModelE: Comparison to In Situ, Satellite, and Reanalysis Data",
+      "doi": "",
+      "year": 2006,
+      "claims": [
+        "Earth System Model: Aerosols",
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Atmospheric Chemistry",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean"
+      ]
+    },
+    {
+      "id": "R23287",
+      "title": "A Modified Dynamic Framework for the Atmospheric Spectral Model and Its Application",
+      "doi": "",
+      "year": 2008,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Ocean Biogeo Chemistry",
+        "Earth System Model: Sea Ice",
+        "has name: BCC-CSM1.1"
+      ]
+    },
+    {
+      "id": "R23471",
+      "title": "INGV-CMCC Carbon (ICC): A Carbon Cycle Earth System Model",
+      "doi": "",
+      "year": 2009,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Ocean Biogeo Chemistry",
+        "Earth System Model: Sea Ice"
+      ]
+    },
+    {
+      "id": "R23260",
+      "title": "The NCEP Climate Forecast System Reanalysis",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Sea Ice",
+        "has name: CFSV2-2011"
+      ]
+    },
+    {
+      "id": "R23300",
+      "title": "The CSIRO Mk3.5 Climate Model",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Earth System Model: Aerosols",
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Sea Ice",
+        "has name: CSIRO-MK3.6.0"
+      ]
+    },
+    {
+      "id": "R23408",
+      "title": "Simulating present-day climate with the INMCM4.0 coupled model of the atmospheric and oceanic general circulations",
+      "doi": "",
+      "year": 2010,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Ocean Biogeo Chemistry",
+        "Earth System Model: Sea Ice"
+      ]
+    },
+    {
+      "id": "R23398",
+      "title": "Development and evaluation of an Earth-System model – HadGEM2",
+      "doi": "",
+      "year": 2011,
+      "claims": [
+        "Earth System Model: Aerosols",
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Ice",
+        "Earth System Model: Land Surface",
+        "has name: HADGEM2-A"
+      ]
+    },
+    {
+      "id": "R23326",
+      "title": "GFDL’s ESM2 Global Coupled Climate–Carbon Earth System Models. Part I: Physical Formulation and Baseline Simulation Characteristics",
+      "doi": "",
+      "year": 2012,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Surface",
+        "Earth System Model: Ocean",
+        "Earth System Model: Ocean Biogeo Chemistry",
+        "Earth System Model: Sea Ice",
+        "has name: GFDL-ESM2G"
+      ]
+    },
+    {
+      "id": "R23436",
+      "title": "Climate Simulations Using MRI-AGCM3.2 with 20-km Grid",
+      "doi": "",
+      "year": 2012,
+      "claims": [
+        "Earth System Model: Atmosphere",
+        "Earth System Model: Land Surface",
+        "has name: MRI-AGCM3.2S"
+      ]
+    }
+  ]
+}

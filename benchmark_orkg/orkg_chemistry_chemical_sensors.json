@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_chemistry_chemical_sensors",
+  "title": "Chemical sensors (chemistry)",
+  "discipline": "chemistry",
+  "orkg_problem_id": "resource/R139327",
+  "discovery_year": 2015,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R140743",
+    "citation": "Flower-like Palladium Nanoclusters Decorated Graphene Electrodes for Ultrasensitive and Flexible Hydrogen Gas Sensing",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Chemical sensors', the held-out later work (Flower-like Palladium Nanoclusters Decorated Graphene Electrodes for Ultrasensitive and Flexible Hydrogen Gas Sensing) established: Sensing material: Graphene - Pd nanoparticles; Analyte: Hydrogen; Architecture: Chemiresistor",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R139328",
+      "title": "High-Performance Sensors Based on Molybdenum Disulfide Thin Films",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Sensing material: $$MoS_2$$",
+        "Analyte: $$NH_3$$",
+        "Architecture: Field−effect transistor",
+        "Composition: Si/$$SiO_2$$/Ni−Au/$$MoS_2$$/Ni−Au",
+        "Limit of detection (ppm): 0.3",
+        "Maximum experimental range: 30"
+      ]
+    },
+    {
+      "id": "R139332",
+      "title": "The NH3 sensing properties of gas sensors based on aniline reduced graphene oxide",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Sensing material: Reduced graphene oxide",
+        "Analyte: $$NH_3$$",
+        "Architecture: Chemiresistor",
+        "Composition: Cr−Au/reduced graphene oxide−PANI/Cr−Au",
+        "Limit of detection (ppm): 20",
+        "Maximum experimental range: 50"
+      ]
+    },
+    {
+      "id": "R139377",
+      "title": "Stable Cu2O nanocrystals grown on functionalized graphene sheets and room temperature H2S gas sensing with ultrahigh sensitivity",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Sensing material: Reduced graphene oxide −$$Cu_2O$$",
+        "Analyte: $$H_2S$$",
+        "Architecture: Chemiresistor",
+        "Limit of detection (ppm): 0.005",
+        "Minimum experimental range (ppm): 0.005",
+        "Composition: Au/ reduced graphene oxide −$$Cu_2O$$/Au"
+      ]
+    },
+    {
+      "id": "R140519",
+      "title": "Sensing Behavior of Atomically Thin-Layered MoS2 Transistors",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Sensing material: Molybdenum disulfide",
+        "Analyte: Nitrogen dioxide",
+        "Architecture: Field−effect transistor",
+        "Composition: Si/$$SiO_2$$/$$MoS_2$$/Ti−Au/Ti−Au",
+        "Limit of detection (ppm): 100",
+        "Maximum experimental range (ppm): 1000"
+      ]
+    },
+    {
+      "id": "R140526",
+      "title": "Fabrication of a novel 2D-graphene/2D-NiO nanosheet-based hybrid nanostructure and its use in highly sensitive NO2 sensors",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "Sensing material: Nickel(II) oxide",
+        "Temperature (°C): 250",
+        "Sensing environment: Air",
+        "Composition: Ni−Au/Nickel(II) oxide/Ni−Au",
+        "Analyte: Nitrogen dioxide",
+        "Architecture: Chemiresistor"
+      ]
+    },
+    {
+      "id": "R139336",
+      "title": "Single-layer MoSe2 based NH3 gas sensor",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Sensing material: $$MoSe_2$$",
+        "Analyte: $$NH_3$$",
+        "Architecture: Chemiresistor",
+        "Composition: Ti−Au/$$MoSe_2$$/Au",
+        "Limit of detection (ppm): 50",
+        "Maximum experimental range: 1000"
+      ]
+    },
+    {
+      "id": "R139380",
+      "title": "Selective Detection of Acetone and Hydrogen Sulfide for the Diagnosis of Diabetes and Halitosis Using SnO2Nanofibers Functionalized with Reduced Graphene Oxide Nanosheets",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Sensing material: Reduced graphene oxide−$$SnO_2$$ nanowire",
+        "Analyte: $$H_2S$$",
+        "Architecture: Chemiresistor",
+        "Limit of detection (ppm): 1",
+        "Maximum experimental range (ppm): 5",
+        "Minimum experimental range (ppm): 1"
+      ]
+    },
+    {
+      "id": "R140514",
+      "title": "High-Performance Chemical Sensing Using Schottky-Contacted Chemical Vapor Deposition Grown Monolayer MoS2 Transistors",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Sensing material: Molybdenum disulfide",
+        "Analyte: Nitrogen dioxide",
+        "Architecture: Field−effect transistor",
+        "Temperature (°C): 25",
+        "Sensing environment: Air",
+        "Composition: Si/$$SiO_2$$/$$MoS_2$$/Ti−Au/Ti−Au"
+      ]
+    },
+    {
+      "id": "R140530",
+      "title": "Flexible NO2 sensors fabricated by layer-by-layer covalent anchoring and in situ reduction of graphene oxide",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Sensing material: Reduced graphene oxide",
+        "Analyte: Nitrogen dioxide",
+        "Limit of detection (ppm): 1",
+        "Maximum experimental range (ppm): 20",
+        "Minimum experimental range (ppm): 1",
+        "Architecture: Chemiresistor"
+      ]
+    },
+    {
+      "id": "R140748",
+      "title": "Effects of Pd nanocube size of Pd nanocube-graphene hybrid on hydrogen sensing properties",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "Sensing material: Graphene - Pd nanocubes",
+        "Analyte: Hydrogen",
+        "Limit of detection (ppm): 10",
+        "Minimum experimental range (ppm): 10",
+        "Maximum experimental range (ppm): 10000",
+        "Temperature (°C): 25"
+      ]
+    }
+  ]
+}

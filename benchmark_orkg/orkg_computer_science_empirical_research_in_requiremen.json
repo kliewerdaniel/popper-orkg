@@ -1,0 +1,152 @@
+{
+  "domain": "orkg_computer_science_empirical_research_in_requiremen",
+  "title": "empirical research in requirements engineering (computer_science)",
+  "discipline": "computer_science",
+  "orkg_problem_id": "resource/R215730",
+  "discovery_year": 2015,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R78392",
+    "citation": "Bug report, feature request, or simply praise? On automatically classifying app reviews",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'empirical research in requirements engineering', the held-out later work (Bug report, feature request, or simply praise? On automatically classifying app reviews) established: has dataset: https://mast.informatik.uni-hamburg.de/wp-content/uploads/2014/03/REJ_data.zip; Internal identifier: P25; Machine learning algorithms: Decision tree - C4.5",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R211279",
+      "title": "An Approach for Decision Support on the Uncertainty in Feature Model Evolution",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research question answer: hidden in text",
+        "research  question: Research Questions in RE Contribution",
+        "threat to validity: no threats to validity",
+        "data collection: no collection",
+        "data analysis: no analysis"
+      ]
+    },
+    {
+      "id": "R211198",
+      "title": "Identifying and classifying ambiguity for regulatory requirements",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research  question: Research Questions in RE Contribution",
+        "research question answer: highlighted",
+        "data collection: collection",
+        "data analysis: analysis",
+        "threat to validity: construct, reliability, internal, external"
+      ]
+    },
+    {
+      "id": "R211188",
+      "title": "Goal-oriented compliance with multiple regulations",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research  question: Research Questions in RE Contribution",
+        "research question answer: hidden in text",
+        "data collection: collection",
+        "threat to validity: internal, external, construct",
+        "data analysis: analysis"
+      ]
+    },
+    {
+      "id": "R211177",
+      "title": "Automated detection and resolution of legal cross references: Approach and a study of Luxembourg's legislation",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research  question: Research Questions in RE Contribution",
+        "research question answer: hidden in text",
+        "data analysis: analysis",
+        "threat to validity: no threats to validity",
+        "data collection: collection"
+      ]
+    },
+    {
+      "id": "R211154",
+      "title": "Protos: Foundations for engineering innovative sociotechnical systems",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research  question: Research Questions in RE Contribution",
+        "research question answer: hidden in text",
+        "threat to validity: mentioned",
+        "data collection: collection",
+        "data analysis: no analysis"
+      ]
+    },
+    {
+      "id": "R211145",
+      "title": "Integrating exception handling in goal models",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research question answer: hidden in text",
+        "research  question: Research Questions in RE Contribution",
+        "threat to validity: no threats to validity",
+        "data collection: collection",
+        "data analysis: analysis"
+      ]
+    },
+    {
+      "id": "R211137",
+      "title": "Supporting early decision-making in the presence of uncertainty",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research question answer: highlighted",
+        "research  question: Research Questions in RE Contribution",
+        "threat to validity: no threats to validity",
+        "data collection: no collection",
+        "data analysis: no analysis"
+      ]
+    },
+    {
+      "id": "R211121",
+      "title": "Towards a situation awareness design to improve visually impaired orientation in unfamiliar buildings: Requirements elicitation study",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research question answer: hidden in text",
+        "research  question: Research Questions in RE Contribution",
+        "data analysis: analysis",
+        "data collection: collection",
+        "threat to validity: no threats to validity"
+      ]
+    },
+    {
+      "id": "R211106",
+      "title": "Therapist-centered requirements: A multi-method approach of requirement gathering to support rehabilitation gaming",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research question answer: hidden in text",
+        "research  question: Research Questions in RE Contribution",
+        "data analysis: analysis",
+        "threat to validity: mentioned",
+        "data collection: collection"
+      ]
+    },
+    {
+      "id": "R211096",
+      "title": "How practitioners approach gameplay requirements? An exploration into the context of massive multiplayer online role-playing games",
+      "doi": "",
+      "year": 2014,
+      "claims": [
+        "research  question: Research Questions in RE Contribution",
+        "research question answer: hidden in text",
+        "threat to validity: mentioned",
+        "data analysis: analysis",
+        "data collection: collection"
+      ]
+    }
+  ]
+}

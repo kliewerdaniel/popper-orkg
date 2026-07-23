@@ -1,0 +1,128 @@
+{
+  "domain": "orkg_neuroscience_ct_image_segmentation_and_classi",
+  "title": "CT Image Segmentation and Classification (neuroscience)",
+  "discipline": "neuroscience",
+  "orkg_problem_id": "resource/R700963",
+  "discovery_year": 2021,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R700939",
+    "citation": "Large-scale screening to distinguish between COVID-19 and community-acquired pneumonia using infection size-aware classification",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'CT Image Segmentation and Classification', the held-out later work (Large-scale screening to distinguish between COVID-19 and community-acquired pneumonia using infection size-aware classi) established: method: Random Forest (RF); data sources: private; number of CT scans: 2685",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R700920",
+      "title": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: U-Net++",
+        "data sources: private",
+        "number of CT scans: 35355",
+        "ACC/AUC: 95.24",
+        "Sensitivity: 100",
+        "Specificity: 94"
+      ]
+    },
+    {
+      "id": "R700923",
+      "title": "Rapid ai development cycle for the coronavirus (covid-19) pandemic: Initial results for automated detection & patient monitoring using deep learning ct image analysis",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: U-Net",
+        "method: ResNet",
+        "data sources: private",
+        "number of CT scans: 157",
+        "ACC/AUC: 99.6",
+        "Sensitivity: 98.2"
+      ]
+    },
+    {
+      "id": "R700926",
+      "title": "Serial Quantitative Chest CT Assessment of COVID-19: A Deep Learning                     Approach",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: U-Net",
+        "data sources: private",
+        "number of CT scans: 842"
+      ]
+    },
+    {
+      "id": "R675126",
+      "title": "Using Artificial Intelligence to Detect COVID-19 and                     Community-acquired Pneumonia Based on Pulmonary CT: Evaluation of the Diagnostic                     Accuracy",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "dataset features: 4356 CT images from 3322 patients obtained from six clinics",
+        "machine learning algorithms/methods: COVNet using pre-traind ResNet-50",
+        "Accuracy (%): N/A\\t",
+        "Sensitivity: 87%",
+        "Specificity: 92%",
+        "method: U-Net"
+      ]
+    },
+    {
+      "id": "R700931",
+      "title": "Machine learning-based CT radiomics method for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection: a multicenter study",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: Logistic Regression (LR)",
+        "method: Random Forest (RF)",
+        "data sources: private",
+        "number of CT scans: 52",
+        "ACC/AUC: 97",
+        "Sensitivity: 100"
+      ]
+    },
+    {
+      "id": "R700955",
+      "title": "A Deep Learning System to Screen Novel Coronavirus Disease 2019 Pneumonia",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: ResNet",
+        "data sources: private",
+        "number of CT scans: 618",
+        "ACC/AUC: 86.7"
+      ]
+    },
+    {
+      "id": "R700959",
+      "title": "COVID-CT-Dataset: A CT Scan Dataset about COVID-19",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "method: DenseNet",
+        "data sources: Own",
+        "number of CT scans: 470",
+        "ACC/AUC: 84.7",
+        "Sensitivity: 76.2"
+      ]
+    },
+    {
+      "id": "R675172",
+      "title": "Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label",
+      "doi": "",
+      "year": 2020,
+      "claims": [
+        "dataset features: 313 chest CT images of COVID-19 patients",
+        "dataset features: 229 chest CT images non-COVID-19 patients.",
+        "machine learning algorithms/methods: U-net",
+        "machine learning algorithms/methods: 3D Deep Network",
+        "Accuracy (%): 90%",
+        "Sensitivity: 95%"
+      ]
+    }
+  ]
+}

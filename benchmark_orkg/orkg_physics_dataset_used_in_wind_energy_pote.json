@@ -1,0 +1,162 @@
+{
+  "domain": "orkg_physics_dataset_used_in_wind_energy_pote",
+  "title": "Dataset used in wind energy potential assessment (physics)",
+  "discipline": "physics",
+  "orkg_problem_id": "resource/R705584",
+  "discovery_year": 2019,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R703055",
+    "citation": "Assessment of wind energy potential using wind energy conversion system",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Dataset used in wind energy potential assessment', the held-out later work (Assessment of wind energy potential using wind energy conversion system) established: country: Pakistan; measuring instrument: combined speed direction anemometer; wind rose presence: Yes",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R704955",
+      "title": "A new estimation approach based on moments for estimating Weibull parameters in wind power applications",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Turkey",
+        "wind rose presence: no",
+        "number of time series: Quantity Value",
+        "wind speed height: height",
+        "length of time series: Time duration",
+        "has wind power density: no"
+      ]
+    },
+    {
+      "id": "R707531",
+      "title": "Estimation of wind speed probability density function using a mixture of two truncated normal distributions",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "wind speed height: 10m",
+        "country: Italy",
+        "country: USA"
+      ]
+    },
+    {
+      "id": "R707519",
+      "title": "Integrated approach for the determination of an accurate wind-speed distribution model",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Malaysia",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R707596",
+      "title": "On the mixture of wind speed distribution in a Nordic region",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Canada",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "wind speed height: 10m",
+        "Location: Onshore",
+        "number of time series: Quantity Value"
+      ]
+    },
+    {
+      "id": "R707568",
+      "title": "A comprehensive evaluation of the wind resource characteristics to investigate the short term penetration of regional wind power based on different probability statistical methods",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Iran",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind speed height: height"
+      ]
+    },
+    {
+      "id": "R708270",
+      "title": "Comparison of seven methods for determining the optimal statistical distribution parameters: A case study of wind energy assessment in the large-scale wind farms of China",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: China",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "temporal resolution: Time duration",
+        "length of time series: Time duration",
+        "has wind power density: no"
+      ]
+    },
+    {
+      "id": "R709006",
+      "title": "Deep assessment of wind speed distribution models: A case study of four sites in Algeria",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Algeria",
+        "length of time series: Time duration",
+        "Location: Onshore",
+        "temporal resolution: Time duration",
+        "wind rose presence: no",
+        "has wind power density: yes"
+      ]
+    },
+    {
+      "id": "R708940",
+      "title": "Wind speed analysis using the Extended Generalized Lindley Distribution",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Turkey",
+        "length of time series: Time duration",
+        "temporal resolution: Time duration",
+        "Location: Onshore",
+        "number of time series: Quantity Value",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R727676",
+      "title": "Energy and economic performance of small wind energy systems under different climatic conditions of South Africa",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "rated power: Quantity Value",
+        "rated wind speed: Quantity Value",
+        "cut-in wind speed: Quantity Value",
+        "diameter: quantity value",
+        "country: South Africa",
+        "wind rose presence: no"
+      ]
+    },
+    {
+      "id": "R717721",
+      "title": "Wind Energy Potential Assessment of Coastal States in South-South Nigeria Based on the Weibull Distribution Model",
+      "doi": "",
+      "year": 2018,
+      "claims": [
+        "country: Nigeria",
+        "data source: meteorological",
+        "measuring instrument: Cup-generator anemometer",
+        "number of time series: Quantity Value",
+        "length of time series: Time duration",
+        "wind speed height: height"
+      ]
+    }
+  ]
+}

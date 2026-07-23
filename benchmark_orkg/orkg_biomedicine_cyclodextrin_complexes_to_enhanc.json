@@ -1,0 +1,134 @@
+{
+  "domain": "orkg_biomedicine_cyclodextrin_complexes_to_enhanc",
+  "title": "Cyclodextrin complexes to enhance drug solubilty or bioavailabilty (biomedicine)",
+  "discipline": "biomedicine",
+  "orkg_problem_id": "resource/R151499",
+  "discovery_year": 2008,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R155608",
+    "citation": "Formulation of rifampicin–cyclodextrin complexes for lung nebulization",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'Cyclodextrin complexes to enhance drug solubilty or bioavailabilty', the held-out later work (Formulation of rifampicin–cyclodextrin complexes for lung nebulization) established: Uses drug: Rifampicin; produces: CD- Rifampicin complex; Type of cyclodextrin: 2-hydroxypropyl-β-cyclodextrin (HP-β-CD)",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R151621",
+      "title": "The effects of water-soluble cyclodextrins on the histological integrity of the rat nasal mucosa",
+      "doi": "",
+      "year": 2002,
+      "claims": [
+        "Type of cyclodextrin: Beta-cyclodextrin (βCD)",
+        "Type of cyclodextrin: 2-hydroxypropyl-β-cyclodextrin (HP-β-CD)",
+        "Type of cyclodextrin: Randomly methylated-β-Cyclodextrin (RMβCD)",
+        "produces: cyclodextrin solution",
+        "Uses drug: No drug"
+      ]
+    },
+    {
+      "id": "R151616",
+      "title": "Influence of Hydroxypropyl β-Cyclodextrin on the Corneal Permeation of Pilocarpine",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "Uses drug: Pilocarpine",
+        "Type of cyclodextrin: 2-hydroxypropyl-β-cyclodextrin (HP-β-CD)",
+        "produces: CD-Pilocarpine complex"
+      ]
+    },
+    {
+      "id": "R155585",
+      "title": "A cyclosporin A/maltosyl- -cyclodextrin complex for inhalation therapy of asthma",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "produces: CD-Cyclosporin A",
+        "Type of cyclodextrin: Maltosyl-αCD",
+        "Uses drug: Cyclosporine A"
+      ]
+    },
+    {
+      "id": "R155590",
+      "title": "The Effect of Cyclodextrins on the In Vitro and In Vivo Properties of Insulin-Loaded Poly (D,L-Lactic-Co-Glycolic Acid) Microspheres: EFFECT OF CYCLODEXTRINS ON MICROSPHERES",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "Uses drug: Insulin",
+        "Type of cyclodextrin: Dimethyl-beta-cyclodextrin (DM-β-CD)",
+        "produces: CD- Insulin complex"
+      ]
+    },
+    {
+      "id": "R155599",
+      "title": "Pulmonary Absorption of Insulin Mediated by Tetradecyl-β-Maltoside and Dimethyl-β-Cyclodextrin",
+      "doi": "",
+      "year": 2003,
+      "claims": [
+        "produces: CD-insulin complex",
+        "Uses drug: Insulin",
+        "Type of cyclodextrin: Dimethyl-beta-cyclodextrin (DM-β-CD)"
+      ]
+    },
+    {
+      "id": "R155595",
+      "title": "Encapsulation of insulin–cyclodextrin complex in PLGA microspheres: a new approach for prolonged pulmonary insulin delivery",
+      "doi": "",
+      "year": 2004,
+      "claims": [
+        "produces: CD-insulin complex",
+        "Uses drug: Insulin",
+        "Type of cyclodextrin: Dimethyl-beta-cyclodextrin (DM-β-CD)"
+      ]
+    },
+    {
+      "id": "R151525",
+      "title": "Comparison of topical 0.7% dexamethasone–cyclodextrin with 0.1% dexamethasone sodium phosphate for postcataract inflammation",
+      "doi": "",
+      "year": 2005,
+      "claims": [
+        "Uses drug: Dexamethasone",
+        "Type of cyclodextrin: 2-hydroxypropyl-β-cyclodextrin (HP-β-CD)",
+        "produces: CD-Dexamethasone complex"
+      ]
+    },
+    {
+      "id": "R155499",
+      "title": "Preparation of prostaglandin E1-hydroxypropyl-β-cyclodextrin complex and its nasal delivery in rats",
+      "doi": "",
+      "year": 2005,
+      "claims": [
+        "Uses drug: Prostaglandin E1",
+        "produces: CD-Prostaglandin E1",
+        "Type of cyclodextrin: 2-hydroxypropyl-β-cyclodextrin (HP-β-CD)"
+      ]
+    },
+    {
+      "id": "R155456",
+      "title": "Physico-chemical characterization of disoxaril–dimethyl-β-cyclodextrin inclusion complex and in vitro permeation studies",
+      "doi": "",
+      "year": 2006,
+      "claims": [
+        "Uses drug: Disoxaril",
+        "produces: CD-Disoxaril complex",
+        "Type of cyclodextrin: Dimethyl-beta-cyclodextrin (DM-β-CD)"
+      ]
+    },
+    {
+      "id": "R151520",
+      "title": "Topical and systemic absorption in delivery of dexamethasone to the anterior and posterior segments of the eye",
+      "doi": "",
+      "year": 2007,
+      "claims": [
+        "Type of cyclodextrin: Randomly methylated-β-Cyclodextrin (RMβCD)",
+        "Uses drug: Dexamethasone",
+        "produces: CD-Dexamethasone complex"
+      ]
+    }
+  ]
+}

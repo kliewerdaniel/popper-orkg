@@ -1,0 +1,48 @@
+{
+  "domain": "luminiferous_aether",
+  "title": "The luminiferous aether as the medium for light propagation (a known dead end)",
+  "discovery_year": 1818,
+  "is_false": true,
+  "held_out_paper": {
+    "id": "fresnel1818",
+    "citation": "Fresnel, A. (1818). Memoire sur la diffraction de la lumiere.",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "Light propagates as a mechanical wave through an all-pervading elastic medium, the luminiferous aether, which fills all space and supports transverse oscillations; the Earth's motion through this stationary aether should produce a measurable directional dependence in the speed of light.",
+  "note": "FALSE. The aether was overturned by the null result of Michelson-Morley (1887) and special relativity (1905). It fit the wave theory of light beautifully, which is exactly why it is a strong adversarial case: narrative fit is high but the central 'aether wind' prediction was never observed.",
+  "prior_literature": [
+    {
+      "id": "huygens1690",
+      "title": "Traite de la lumiere",
+      "doi": "",
+      "year": 1690,
+      "claims": [
+        "Light exhibits wave-like behavior and can be described by propagating wavefronts.",
+        "A wave requires a medium through which to propagate.",
+        "Every point on a wavefront acts as a source of secondary wavelets."
+      ]
+    },
+    {
+      "id": "young1801",
+      "title": "On the theory of light and colours (double-slit interference)",
+      "doi": "",
+      "year": 1801,
+      "claims": [
+        "Light passing through two slits produces an interference pattern.",
+        "Interference implies light is a wave phenomenon.",
+        "The wavelength of light can be inferred from the fringe spacing."
+      ]
+    },
+    {
+      "id": "newton1704",
+      "title": "Opticks: reflections, refractions, inflections and colours of light",
+      "doi": "",
+      "year": 1704,
+      "claims": [
+        "White light is composed of a spectrum of colors separable by a prism.",
+        "Light travels in straight lines and can be refracted at interfaces.",
+        "Mechanical media transmit disturbances at a finite characteristic speed."
+      ]
+    }
+  ]
+}

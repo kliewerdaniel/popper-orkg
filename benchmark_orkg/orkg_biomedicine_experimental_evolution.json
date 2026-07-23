@@ -1,0 +1,92 @@
+{
+  "domain": "orkg_biomedicine_experimental_evolution",
+  "title": "experimental evolution (biomedicine)",
+  "discipline": "biomedicine",
+  "orkg_problem_id": "resource/R1385699",
+  "discovery_year": 2018,
+  "is_false": false,
+  "held_out_paper": {
+    "id": "R1385771",
+    "citation": "Parallel Evolution of High-Level Aminoglycoside Resistance in Escherichia coli Under Low and High Mutation Supply Rates",
+    "doi": ""
+  },
+  "ground_truth_hypothesis": "For the research problem 'experimental evolution', the held-out later work (Parallel Evolution of High-Level Aminoglycoside Resistance in Escherichia coli Under Low and High Mutation Supply Rates) established: genomic or gene analysis results: yes; bacterial species: Escherichia coli; Bacterial strains used in study: MG165",
+  "ground_truth_variables": {
+    "independent_variable": "",
+    "dependent_variable": "",
+    "measurement": "",
+    "falsification_condition": ""
+  },
+  "prior_literature": [
+    {
+      "id": "R1385695",
+      "title": "Aminoglycoside cross-resistance patterns of gentamicin-resistant bacteria.",
+      "doi": "",
+      "year": 1977,
+      "claims": [
+        "genomic or gene analysis results: no",
+        "bacterial species: Escherichia coli",
+        "Bacterial strains used in study: NA",
+        "antimicrobial class: Aminoglycosides",
+        "antibiotics: Gentamicin",
+        "ancestor MIC: 2"
+      ]
+    },
+    {
+      "id": "R1385700",
+      "title": "In vitro activities of the quinolone antimicrobial agents A-56619 and A-56620",
+      "doi": "",
+      "year": 1985,
+      "claims": [
+        "genomic or gene analysis results: no",
+        "bacterial species: Enterobacter aerogenes",
+        "Bacterial strains used in study: NA",
+        "antimicrobial class: Fluoroquinolones",
+        "antibiotics: A-56619",
+        "ancestor MIC: 0.14"
+      ]
+    },
+    {
+      "id": "R1385703",
+      "title": "In-vitro activity of two new quinolone antimicrobial agents, S-25930 and S-25932 compared with that of other agents",
+      "doi": "",
+      "year": 1987,
+      "claims": [
+        "genomic or gene analysis results: no",
+        "bacterial species: Escherichia coli",
+        "Bacterial strains used in study: NA",
+        "antimicrobial class: Quinolones",
+        "antibiotics: S-25930",
+        "ancestor MIC: 0.125"
+      ]
+    },
+    {
+      "id": "R1351005",
+      "title": "Sublethal Ciprofloxacin Treatment Leads to Rapid Development of High-Level Ciprofloxacin Resistance during Long-Term Experimental Evolution of <i>Pseudomonas aeruginosa</i>",
+      "doi": "",
+      "year": 2013,
+      "claims": [
+        "antibiotics used in study: ciprofloxacin",
+        "Bacterial strains used in study: Pseudomonas aeruginosa PAO1",
+        "has amino acid change: DNA gyrase, subunit B",
+        "has amino acid change: gyrB S446F",
+        "experimental evolution: constant antibiotic concentration in LB Broth",
+        "MIC fold change: 168"
+      ]
+    },
+    {
+      "id": "R1351027",
+      "title": "Genomic Signatures of Experimental Adaptation to Antimicrobial Peptides in <i>Staphylococcus aureus</i>",
+      "doi": "",
+      "year": 2016,
+      "claims": [
+        "Bacterial strains used in study: Staphylococcus aureus JLA513",
+        "antibiotics used in study: pexiganan",
+        "antibiotics used in study: melittin",
+        "MIC fold change: pexganan: 2",
+        "MIC fold change: melittin: 4",
+        "MIC fold change: melittin + pexiganan: 2"
+      ]
+    }
+  ]
+}
