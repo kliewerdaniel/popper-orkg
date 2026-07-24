@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_biomedicine_experimental_evolution",
+  "title": "experimental evolution (biomedicine)",
+  "discipline": "biomedicine",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 5,
+  "n_claims": 30,
+  "ground_truth_hypothesis": "For the research problem 'experimental evolution', the held-out later work (Parallel Evolution of High-Level Aminoglycoside Resistance in Escherichia coli Under Low and High Mutation Supply Rates) established: genomic or gene analysis results: yes; bacterial species: Escherichia coli; Bacterial strains used in study: MG165",
+  "held_out_paper": {
+    "id": "R1385771",
+    "citation": "Parallel Evolution of High-Level Aminoglycoside Resistance in Escherichia coli Under Low and High Mutation Supply Rates",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9655,
+      "mean_grounding": 0.7556,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.8951,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.5389,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5197,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.501,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

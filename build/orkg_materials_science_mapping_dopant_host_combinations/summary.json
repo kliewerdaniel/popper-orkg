@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_materials_science_mapping_dopant_host_combinations",
+  "title": "Mapping dopant–host combinations in ALD thin films (materials_science)",
+  "discipline": "materials_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 54,
+  "ground_truth_hypothesis": "For the research problem 'Mapping dopant–host combinations in ALD thin films', the held-out later work (Atomic-layer design and properties of Pr-doped HfO2 thin films) established: Host material: HfO2; Application: Memory; Application: Gate dielectrics",
+  "held_out_paper": {
+    "id": "R1469826",
+    "citation": "Atomic-layer design and properties of Pr-doped HfO2 thin films",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9708,
+      "mean_grounding": 0.75,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.8679,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.6984,
+      "mean_grounding": 0.5833,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.3705,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.5833,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

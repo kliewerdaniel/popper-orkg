@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_computer_science_semantic_segmentation",
+  "title": "Semantic segmentation (computer_science)",
+  "discipline": "computer_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 57,
+  "ground_truth_hypothesis": "For the research problem 'Semantic segmentation', the held-out later work (Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields) established: model: Swin-s rpe w gab; source code: https://github.com/kmbmjn/GaussianAttentionBias; Benchmark: Benchmark Ade20k val",
+  "held_out_paper": {
+    "id": "R1801235",
+    "citation": "Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9772,
+      "mean_grounding": 0.5556,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.62,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.8182,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.616,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.508,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

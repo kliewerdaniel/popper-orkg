@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_neuroscience_ct_image_segmentation_and_classi",
+  "title": "CT Image Segmentation and Classification (neuroscience)",
+  "discipline": "neuroscience",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 8,
+  "n_claims": 42,
+  "ground_truth_hypothesis": "For the research problem 'CT Image Segmentation and Classification', the held-out later work (Large-scale screening to distinguish between COVID-19 and community-acquired pneumonia using infection size-aware classi) established: method: Random Forest (RF); data sources: private; number of CT scans: 2685",
+  "held_out_paper": {
+    "id": "R700939",
+    "citation": "Large-scale screening to distinguish between COVID-19 and community-acquired pneumonia using infection size-aware classification",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9726,
+      "mean_grounding": 1.0,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9908,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 1,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.9785,
+      "mean_grounding": 0.0,
+      "mean_testability": 0.8571,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.6984,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5843,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.4603,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

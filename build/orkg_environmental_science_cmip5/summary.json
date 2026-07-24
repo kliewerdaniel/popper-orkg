@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_environmental_science_cmip5",
+  "title": "CMIP5 (environmental_science)",
+  "discipline": "environmental_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 56,
+  "ground_truth_hypothesis": "For the research problem 'CMIP5', the held-out later work (The ACCESS coupled model: description, control climate and evaluation) established: Earth System Model: Ocean; Earth System Model: Sea Ice; Earth System Model: Land Ice",
+  "held_out_paper": {
+    "id": "R9221",
+    "citation": "The ACCESS coupled model: description, control climate and evaluation",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9252,
+      "mean_grounding": 1.0,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9744,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 1,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.9865,
+      "mean_grounding": 0.0,
+      "mean_testability": 0.8571,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.75,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5984,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.4152,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

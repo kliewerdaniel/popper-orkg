@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_biomedicine_biomedical_research_in_psychiatr",
+  "title": "Biomedical research in  Psychiatric Disorders (biomedicine)",
+  "discipline": "biomedicine",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 60,
+  "ground_truth_hypothesis": "For the research problem 'Biomedical research in  Psychiatric Disorders', the held-out later work (Comprehensive functional genomic resource and integrative model for the human brain) established: Used models: Deep structured phenotype network (DSPN); Findings: The model provided insights about intermediate phenotypes and their connections to high-level phenotypes (disease traits).; Study cohort: PsychENCODE Consortium dataset g",
+  "held_out_paper": {
+    "id": "R138825",
+    "citation": "Comprehensive functional genomic resource and integrative model for the human brain",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9337,
+      "mean_grounding": 0.85,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9242,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.7381,
+      "mean_grounding": 0.8333,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5587,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.376,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

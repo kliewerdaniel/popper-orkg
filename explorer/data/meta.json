@@ -1,8 +1,66 @@
 {
-  "n_domains": 0,
-  "n_adversarial": 0,
-  "disciplines": {},
-  "n_hypotheses": 0,
-  "ablation_domains": [],
+  "n_domains": 20,
+  "n_adversarial": 7,
+  "disciplines": {
+    "biomedicine": {
+      "domains": 3,
+      "mean_composite": 0.9366,
+      "mean_grounding": 0.8685,
+      "mean_rediscovery": 0.0667,
+      "mean_falsifiable_rate": 1.0
+    },
+    "chemistry": {
+      "domains": 3,
+      "mean_composite": 0.9324,
+      "mean_grounding": 0.8482,
+      "mean_rediscovery": 0.0333,
+      "mean_falsifiable_rate": 1.0
+    },
+    "computer_science": {
+      "domains": 3,
+      "mean_composite": 0.4277,
+      "mean_grounding": 0.4074,
+      "mean_rediscovery": 0.0,
+      "mean_falsifiable_rate": 1.0
+    },
+    "environmental_science": {
+      "domains": 3,
+      "mean_composite": 0.9819,
+      "mean_grounding": 1.0,
+      "mean_rediscovery": 0.0,
+      "mean_falsifiable_rate": 1.0
+    },
+    "materials_science": {
+      "domains": 3,
+      "mean_composite": 0.9362,
+      "mean_grounding": 0.8889,
+      "mean_rediscovery": 0.0,
+      "mean_falsifiable_rate": 1.0
+    },
+    "neuroscience": {
+      "domains": 2,
+      "mean_composite": 0.953,
+      "mean_grounding": 0.9056,
+      "mean_rediscovery": 0.0,
+      "mean_falsifiable_rate": 1.0
+    },
+    "physics": {
+      "domains": 3,
+      "mean_composite": 0.848,
+      "mean_grounding": 0.8287,
+      "mean_rediscovery": 0.0,
+      "mean_falsifiable_rate": 1.0
+    }
+  },
+  "n_hypotheses": 189,
+  "ablation_domains": [
+    "orkg_biomedicine_biomedical_research_in_psychiatr",
+    "orkg_chemistry_chemical_sensors",
+    "orkg_computer_science_semantic_segmentation",
+    "orkg_environmental_science_biodiversity_inventories_with_dn",
+    "orkg_materials_science_mapping_precursor_chemistries_us",
+    "orkg_neuroscience_simultaneous_localization_and_ma",
+    "orkg_physics_dataset_used_in_wind_energy_pote"
+  ],
   "audit": true
 }

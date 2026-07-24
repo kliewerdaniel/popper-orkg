@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_materials_science_process_parameters_on_the_perfor",
+  "title": "process parameters on the performance characteristics of ALD-deposited films (materials_science)",
+  "discipline": "materials_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 8,
+  "n_claims": 48,
+  "ground_truth_hypothesis": "For the research problem 'process parameters on the performance characteristics of ALD-deposited films', the held-out later work (Tin oxide atomic layer deposition from tetrakis(dimethylamino)tin and water) established: Material: Tin Oxide (SnOx); Precursors or molecules used: Tetrakis(dimethylamino)tin; Precursors or molecules used: water",
+  "held_out_paper": {
+    "id": "R676165",
+    "citation": "Tin oxide atomic layer deposition from tetrakis(dimethylamino)tin and water",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9531,
+      "mean_grounding": 0.9167,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9542,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.75,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5984,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.3962,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

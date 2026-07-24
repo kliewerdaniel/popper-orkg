@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_chemistry_tio2_photocatalysis",
+  "title": "TiO2 Photocatalysis (chemistry)",
+  "discipline": "chemistry",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 38,
+  "ground_truth_hypothesis": "For the research problem 'TiO2 Photocatalysis', the held-out later work (Self-Doped Ti3+ Enhanced Photocatalyst for Hydrogen Production under Visible Light) established: chemical doping method: high-temperature calcination; visible-light driven photocatalysis: high visible-light photocatalytic activity for the generation of hydrogen gas from water; precursors: TTIP, 2-ethylimidazole calcination at 500 °C",
+  "held_out_paper": {
+    "id": "R46117",
+    "citation": "Self-Doped Ti3+ Enhanced Photocatalyst for Hydrogen Production under Visible Light",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.944,
+      "mean_grounding": 0.8056,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0333,
+      "mean_composite": 0.9099,
+      "max_expert_agreement": 0.1
+    },
+    "llm-only": {
+      "n": 1,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.9785,
+      "mean_grounding": 0.0,
+      "mean_testability": 0.8571,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.75,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5984,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.2734,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

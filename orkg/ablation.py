@@ -163,13 +163,17 @@ def run_ablation(corpus: Corpus, component: str, n: int = 3) -> List[Hypothesis]
             avoid = "\n\nDo NOT repeat these already-generated hypotheses:\n" + \
                 "\n".join(f"- {h.statement}" for h in out)
 
-        if component == "full":
+        if component in ("full", "no_grounding_verif"):
+            # no_grounding_verif is a SCORING-side ablation: generation is
+            # identical to the full compiler; the grounding audit is turned off
+            # later in score_ablation (audit=False). Generating identically keeps
+            # the only difference the verification step itself.
             claims_block = _format_claims(corpus)
             user = (f"Domain: {corpus.title}\n\nEstablished claims (each tagged "
                     f"with its source):\n{claims_block}\n{avoid}\n\nCompile ONE new "
                     "falsifiable hypothesis that connects concepts across DIFFERENT "
                     "sources. Use only the source_ids shown above.")
-            hs = _generate(corpus, COMPILER_SYSTEM, user, "full")
+            hs = _generate(corpus, COMPILER_SYSTEM, user, component)
 
         elif component == "no_graph_reasoning":
             claims_block = _flat_claims_block(corpus)

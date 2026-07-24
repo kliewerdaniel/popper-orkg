@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_computer_science_empirical_research_in_requiremen",
+  "title": "empirical research in requirements engineering (computer_science)",
+  "discipline": "computer_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 50,
+  "ground_truth_hypothesis": "For the research problem 'empirical research in requirements engineering', the held-out later work (Bug report, feature request, or simply praise? On automatically classifying app reviews) established: has dataset: https://mast.informatik.uni-hamburg.de/wp-content/uploads/2014/03/REJ_data.zip; Internal identifier: P25; Machine learning algorithms: Decision tree - C4.5",
+  "held_out_paper": {
+    "id": "R78392",
+    "citation": "Bug report, feature request, or simply praise? On automatically classifying app reviews",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9955,
+      "mean_grounding": 0.0,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.75,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5984,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.4833,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

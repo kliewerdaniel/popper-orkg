@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_neuroscience_simultaneous_localization_and_ma",
+  "title": "Simultaneous localization and mapping (neuroscience)",
+  "discipline": "neuroscience",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 9,
+  "n_claims": 52,
+  "ground_truth_hypothesis": "For the research problem 'Simultaneous localization and mapping', the held-out later work (ECMD: An Event-Centric Multisensory Driving Dataset for SLAM) established: sensor: DAVIS346; sensor: DVXplorer; image resolution: 346×260",
+  "held_out_paper": {
+    "id": "R1411278",
+    "citation": "ECMD: An Event-Centric Multisensory Driving Dataset for SLAM",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9585,
+      "mean_grounding": 0.8111,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9152,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 1,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.991,
+      "mean_grounding": 0.0,
+      "mean_testability": 0.8571,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.6984,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.5843,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.65,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

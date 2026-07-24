@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_computer_science_image_classification",
+  "title": "Image classification (computer_science)",
+  "discipline": "computer_science",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 49,
+  "ground_truth_hypothesis": "For the research problem 'Image classification', the held-out later work (Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels) established: model: Lra-diffusion clip vit; source code: https://github.com/puar-playground/lra-diffusion; Benchmark: Benchmark Food-101n",
+  "held_out_paper": {
+    "id": "R1853074",
+    "citation": "Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.985,
+      "mean_grounding": 0.6667,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.6632,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 0,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": null,
+      "mean_grounding": null,
+      "mean_testability": null,
+      "mean_expert_agreement": null,
+      "mean_composite": null,
+      "max_expert_agreement": -1
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.8,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.6114,
+      "max_expert_agreement": 0.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.4586,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}

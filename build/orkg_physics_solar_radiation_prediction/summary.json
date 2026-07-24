@@ -1,0 +1,61 @@
+{
+  "domain": "orkg_physics_solar_radiation_prediction",
+  "title": "Solar radiation prediction (physics)",
+  "discipline": "physics",
+  "is_benchmark": true,
+  "is_false": false,
+  "n_sources": 10,
+  "n_claims": 60,
+  "ground_truth_hypothesis": "For the research problem 'Solar radiation prediction', the held-out later work (3D-VAR Data Assimilation of SEVIRI Radiances for the Prediction of Solar Irradiance in Italy Using WRF Solar Mesoscale M) established: model type: Numerical Weather Prediction (NWP); Assimilated model: Weather Research and Forecasting Model, Solar version 3.8.1; Number of Models: 3",
+  "held_out_paper": {
+    "id": "R1563914",
+    "citation": "3D-VAR Data Assimilation of SEVIRI Radiances for the Prediction of Solar Irradiance in Italy Using WRF Solar Mesoscale Model—Preliminary Results",
+    "doi": ""
+  },
+  "per_method": {
+    "compiler": {
+      "n": 3,
+      "n_falsifiable": 3,
+      "falsifiable_rate": 1.0,
+      "mean_novelty": 0.9066,
+      "mean_grounding": 1.0,
+      "mean_testability": 1.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.9678,
+      "max_expert_agreement": 0.0
+    },
+    "llm-only": {
+      "n": 1,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.9506,
+      "mean_grounding": 0.0,
+      "mean_testability": 0.8571,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    },
+    "keyword": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.5548,
+      "mean_grounding": 0.8333,
+      "mean_testability": 0.2857,
+      "mean_expert_agreement": 0.3333,
+      "mean_composite": 0.4976,
+      "max_expert_agreement": 1.0
+    },
+    "random": {
+      "n": 3,
+      "n_falsifiable": 0,
+      "falsifiable_rate": 0.0,
+      "mean_novelty": 0.594,
+      "mean_grounding": 1.0,
+      "mean_testability": 0.0,
+      "mean_expert_agreement": 0.0,
+      "mean_composite": 0.0,
+      "max_expert_agreement": 0.0
+    }
+  }
+}
